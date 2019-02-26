@@ -1,5 +1,5 @@
 ---
-permalink:  /conference
+permalink:  conference
 ---
 
 <html>
@@ -50,7 +50,7 @@ permalink:  /conference
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//github.com/btlorch" title="btlorch">Benedikt Lorch</a> | Original version by <a href="https://twitter.com/abhshkdz">@abhshkdz</a>.
+          <a href="{{ site.domain }}">{{ site.domain }}</a> is maintained by <a href="//github.com/btlorch" title="btlorch">Benedikt Lorch</a> | Original version by <a href="https://twitter.com/abhshkdz">@abhshkdz</a>.
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
@@ -62,7 +62,7 @@ permalink:  /conference
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
-              $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-title-href').attr('href', "conference?id={{conf.id}}");
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
               $('#conf-website').text("{{conf.link}}");
