@@ -1,25 +1,8 @@
-## AI Deadlines
+## Forensics conference deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/AI conference deadlines.
+[Originally developed](https://github.com/abhshkdz/ai-deadlines/) by [abhshkdz](//twitter.com/abhshkdz)
 
-## Adding/updating a conference
-
-To keep things minimal, I'm only looking to list top-tier conferences in AI as per [conferenceranks.com][6]. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
-
-To add or update information:
-- Fork the repository
-- Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
-- Send a pull request
-
-## Forks & other useful listings
-
-- [geodeadlin.es][3] by @LukasMosser
-- [neuro-deadlines][4] by @tbryn
-- [ai-challenge-deadlines][5] by @dieg0as
-- [2018-2019 International Conferences in AI, CV, DM, NLP and Robotics][7] by @JackieTseng
-- [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
-- [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
+Countdown timers to keep track of forensics and machine learning conference deadlines.
 
 ## License
 

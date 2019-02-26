@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12">
                   <h1>
-                    {{ site.title }} <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {{ site.title }}
                     <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
                   </h1>
                 </div>
@@ -102,8 +102,7 @@
         </div>
         {% endfor %}
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-          If you find it useful, consider <a title="_blank" href="https://buymeacoff.ee/abhshkdz">buying him a coffee</a>.
+          <a href="/">{{ site.domain }}</a> is maintained by <a href="//github.com/btlorch" title="btlorch">Benedikt Lorch</a> | Original version by <a href="https://twitter.com/abhshkdz">@abhshkdz.</a>.
         </footer>
         <br><br>
     </div>
@@ -237,13 +236,6 @@
           window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
-    <!-- Google analytics -->
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.ga_id }}', 'auto');
-      ga('send', 'pageview');
     </script>
   </body>
 </html>
