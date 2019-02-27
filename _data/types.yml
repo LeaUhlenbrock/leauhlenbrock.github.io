@@ -3,7 +3,7 @@
   sub: ML
 - name: Computer Vision
   sub: CV
-- name: Information Hiding
+- name: Information Hiding and Forensics
   sub: FO
 - name: Signal Processing
   sub: SP

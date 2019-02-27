@@ -85,16 +85,18 @@
   place: Long Beach, USA
   sub: CV
 
+- title: ICASSP
+  year: 2020
+  id: icassp2020
+  link: http://2020.ieeeicassp.org/
+  deadline: TBA
+  date: May 4-9, 2020
+  place: Barcelona, Spain
+  sub: SP
+
 # Upcoming conferences
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July
 # * IS&T Electronic Imaging 2020: Media Watermarking, Security, and Forensics. Deadline usually in September
 # * IEEE ICASSP 2020. Deadline usually in October.
-# - title: ICASSP
-#   year: 2020
-#   id: icassp2020
-#   link: http://2020.ieeeicassp.org/
-#   date: May 4-9, 2020
-#   place: Barcelona, Spain
-#   sub: SP
 # * DFRWS EU 2020. Deadline usually in November.
 # * IEEE ICIP 2020. Deadline usually in February/March.

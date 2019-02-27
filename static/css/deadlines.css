@@ -204,3 +204,16 @@ footer {
 .calendar img {
   height: 20px;
 }
+
+.clock {
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10.5px;
+  margin: 23px 0;
+  width: 100%;
+  height: 400px;
+}
+
+  .clock canvas {
+    max-width: 100%;
+  }
