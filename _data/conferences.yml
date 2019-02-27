@@ -31,6 +31,13 @@
   place: Seoul, Korea
   sub: CV
 
+- title: IEEE TMM Special Issue on Multimedia Computing with Interpretable Machine Learning
+  year: 2019
+  id: mciml19
+  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/TMM_SI_Multimedia_Computing.pdf
+  deadline: '2019-03-31'
+  sub: ML
+
 - title: IEEE Access Special Section on Digital Forensics through Multimedia Source Inference
   year: 2019
   id: ieeedfmsi
@@ -38,6 +45,15 @@
   timezone: Etc/GMT
   deadline: '2019-04-30 23:59:59'
   sub: FO
+
+- title: IEEE 21st International Workshop on Multimedia Signal Processing
+  year: 2019
+  id: mmsp19
+  link: http://mmsp2019.org/
+  deadline: '2019-05-18'
+  date: Sep 27-29, 2019
+  place: Kuala Lumpur, Malaysia
+  sub: SP
 
 - title: ICLR
   year: 2019
@@ -69,11 +85,16 @@
   place: Long Beach, USA
   sub: CV
 
-- title: IEEE 21st International Workshop on Multimedia Signal Processing
-  year: 2019
-  id: mmsp19
-  link: http://mmsp2019.org/
-  deadline: '2019-05-18'
-  date: Sep 27-29, 2019
-  place: Kuala Lumpur, Malaysia
-  sub: SP
+# Upcoming conferences
+# * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July
+# * IS&T Electronic Imaging 2020: Media Watermarking, Security, and Forensics. Deadline usually in September
+# * IEEE ICASSP 2020. Deadline usually in October.
+# - title: ICASSP
+#   year: 2020
+#   id: icassp2020
+#   link: http://2020.ieeeicassp.org/
+#   date: May 4-9, 2020
+#   place: Barcelona, Spain
+#   sub: SP
+# * DFRWS EU 2020. Deadline usually in November.
+# * IEEE ICIP 2020. Deadline usually in February/March.
