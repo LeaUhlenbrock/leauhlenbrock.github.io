@@ -112,6 +112,22 @@
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
+        // Initialize clock
+        let canvas = document.getElementById('clock-canvas');
+        let ctx = canvas.getContext('2d');
+        fitToContainer(canvas);
+
+        String.prototype.hashCode = function() {
+          var hash = 0, i, chr;
+          if (this.length === 0) return hash;
+          for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+          }
+          return hash;
+        };
+
         // Make sure this is >= no. of subs
         // Currently not used
         var colors = ['#341f97', '#ee5253', '#2e86de',
@@ -198,6 +214,7 @@
         }
         store.set('{{ site.domain }}', subs);
         window.history.pushState('', '', '?sub=' + subs.join());
+        draw();
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -218,6 +235,7 @@
           console.log(subs);
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '?sub=' + subs.join());
+          draw();
         });
 
         // Event handler on sub click
@@ -238,23 +256,10 @@
           console.log(subs);
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '?sub=' + subs.join());
+          draw();
         });
 
         /*** Clock ***/
-        String.prototype.hashCode = function() {
-          var hash = 0, i, chr;
-          if (this.length === 0) return hash;
-          for (i = 0; i < this.length; i++) {
-            chr   = this.charCodeAt(i);
-            hash  = ((hash << 5) - hash) + chr;
-            hash |= 0; // Convert to 32bit integer
-          }
-          return hash;
-        };
-
-        let canvas = document.getElementById('clock-canvas');
-        let ctx = canvas.getContext('2d');
-
         function fitToContainer(canvas){
           // Make it visually fill the positioned parent
           canvas.style.width ='100%';
@@ -263,8 +268,6 @@
           canvas.width  = canvas.offsetWidth;
           canvas.height = canvas.offsetHeight;
         }
-
-        fitToContainer(canvas);
 
         function draw() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -333,8 +336,14 @@
             // Draw conferences
             // Find conferences
             let conferences = $('.conf-row');
+            console.log(conferences.length);
             conferences.each(function(index) {
               var parentDiv = $(this).parent();
+              // Hide invisible conferences
+              if (!parentDiv.is(":visible")) {
+                return;
+              }
+
               var deadlineTime = parentDiv.find(".deadline-time").text();
               if ("TBA" === deadlineTime) {
                 return;
@@ -399,8 +408,6 @@
                 ctx.stroke();
             }
         }
-
-        draw();
     });
     </script>
   </body>
