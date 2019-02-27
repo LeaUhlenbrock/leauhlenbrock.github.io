@@ -12,8 +12,8 @@ String.prototype.hashCode = function() {
 
 function fitToContainer(canvas){
     // Make it visually fill the positioned parent
-    canvas.style.width ='100%';
-    canvas.style.height='100%';
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
     // ...then set the internal size to match
     canvas.width  = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
@@ -32,7 +32,7 @@ DeadlineClock.prototype = (function() {
     let innerRadius = 50;
     let markerRadius = 5;
     // Color scheme: https://color.adobe.com/Neutral-Blue-color-theme-22361/edit/?copy=true&base=0&rule=Custom&selected=0&name=Copy%20of%20Neutral%20Blue&mode=rgb&rgbvalues=0.988235,1,0.960784,0.819608,0.858824,0.741176,0.568627,0.666667,0.615686,0.243137,0.376471,0.435294,0.0980392,0.203922,0.254902&swatchOrder=0,1,2,3,4
-    let colorPalette = ["#FCFFF5", "#3E606F", "#193441"];
+    let colorPalette = ['#5A3441', '#3E606F', '#193441', '#3E916F'];
 
     // Private members
     var conferences = [];
@@ -41,13 +41,28 @@ DeadlineClock.prototype = (function() {
     var canvas;
     var ctx;
 
+    // For mouse movement
+    var offsetX;
+    var offsetY;
+
     function init() {
         canvas = this.canvas;
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
         ctx = canvas.getContext('2d');
 
+        recomputeOffset();
+        window.onscroll = function(e) { recomputeOffset(); }
+        window.onresize = function(e) { recomputeOffset(); }
+        $(canvas).mousemove(handleMouseMove);
+
         draw();
+    }
+
+    function recomputeOffset() {
+        let boundingBox = canvas.getBoundingClientRect();
+        offsetX = boundingBox.left;
+        offsetY = boundingBox.top;
     }
 
     function onResize() {
@@ -208,10 +223,32 @@ DeadlineClock.prototype = (function() {
         }
     }
 
+    function handleMouseMove(e) {
+        // Tell browser that we're handling this event
+        e.preventDefault();
+        e.stopPropagation();
+
+        let mouseX = parseInt(e.clientX - offsetX);
+        let mouseY = parseInt(e.clientY - offsetY);
+
+        draw();
+        for (let i=0; i<conferenceMarkers.length; i++) {
+            let conferenceMarker = conferenceMarkers[i];
+
+            let dx = mouseX - conferenceMarker.markerX;
+            let dy = mouseY - conferenceMarker.markerY;
+
+            if (dx * dx + dy * dy < markerRadius * markerRadius) {
+                ctx.fillStyle = conferenceMarker.color;
+                ctx.fillText(conferenceMarker.title, conferenceMarker.markerX, conferenceMarker.markerY - 10);
+            }
+        }
+    }
+
     return {
         setConferences: setConferences,
         draw: draw,
         onResize: onResize,
-        init: init
+        init: init,
     };
 })();
