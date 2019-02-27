@@ -16,7 +16,7 @@
     <script src="{{ "static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "static/js/store.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
-
+    <script src="{{ "static/js/clock.js" | prepend:site.baseurl }}"></script>
   </head>
   <body>
     <div class="top-strip"></div>
@@ -114,19 +114,9 @@
     $(function() {
         // Initialize clock
         let canvas = document.getElementById('clock-canvas');
-        let ctx = canvas.getContext('2d');
         fitToContainer(canvas);
-
-        String.prototype.hashCode = function() {
-          var hash = 0, i, chr;
-          if (this.length === 0) return hash;
-          for (i = 0; i < this.length; i++) {
-            chr   = this.charCodeAt(i);
-            hash  = ((hash << 5) - hash) + chr;
-            hash |= 0; // Convert to 32bit integer
-          }
-          return hash;
-        };
+        let clock = new DeadlineClock(canvas);
+        clock.init();
 
         // Make sure this is >= no. of subs
         // Currently not used
@@ -214,7 +204,7 @@
         }
         store.set('{{ site.domain }}', subs);
         window.history.pushState('', '', '?sub=' + subs.join());
-        draw();
+        drawVisibleConferences();
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -235,7 +225,7 @@
           console.log(subs);
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '?sub=' + subs.join());
-          draw();
+          drawVisibleConferences();
         });
 
         // Event handler on sub click
@@ -256,157 +246,35 @@
           console.log(subs);
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '?sub=' + subs.join());
-          draw();
+          drawVisibleConferences();
         });
 
-        /*** Clock ***/
-        function fitToContainer(canvas){
-          // Make it visually fill the positioned parent
-          canvas.style.width ='100%';
-          canvas.style.height='100%';
-          // ...then set the internal size to match
-          canvas.width  = canvas.offsetWidth;
-          canvas.height = canvas.offsetHeight;
-        }
-
-        function draw() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            let centerX = canvas.width / 2;
-            let centerY = canvas.height / 2;
-            let outerRadius = 150;
-            let middleRadius = 100;
-            let innerRadius = 50;
-
-            // Color scheme: https://color.adobe.com/Neutral-Blue-color-theme-22361/edit/?copy=true&base=0&rule=Custom&selected=0&name=Copy%20of%20Neutral%20Blue&mode=rgb&rgbvalues=0.988235,1,0.960784,0.819608,0.858824,0.741176,0.568627,0.666667,0.615686,0.243137,0.376471,0.435294,0.0980392,0.203922,0.254902&swatchOrder=0,1,2,3,4
-            let colorPalette = ["#FCFFF5", "#3E606F", "#193441"];
-
-
-            // Outer circle
-            drawCircle(centerX, centerY, outerRadius, 0, Math.PI * 2, false, '#D1DBBD', 'fill', 1);
-            // Middle circle
-            drawCircle(centerX, centerY, middleRadius, 0, Math.PI * 2, false, '#FCFFF5', 'fill', 1)
-            // Inner circle
-            drawCircle(centerX, centerY, innerRadius, 0, Math.PI * 2, false, '#91AA9D', 'fill', 1);
-
-            // Count the number of days to today next year
-            let today = moment();
-            let todayInOneYear = moment(today).add(1, 'years');
-            let numDaysOneYear = todayInOneYear.diff(today, 'days');
-
-            // Split circle into 12 slices
-            let numberOfDaysPerMonth = new Array(12);
-            var currentDate = moment(today);
-            for (var i=0; i<12; i++) {
-                let currentMonth = currentDate.format("M") - 1;
-                numberOfDaysPerMonth[currentMonth] = currentDate.daysInMonth();
-                currentDate.add(1, 'month');
+        function drawVisibleConferences() {
+          let conferenceRows = $('.conf-row');
+          var conferences = [];
+          conferenceRows.each(function(index) {
+            var parentDiv = $(this).parent();
+          
+            // Hide invisible conferences
+            if (!parentDiv.is(":visible")) {
+              return;
             }
 
-            // Draw month boundaries
-            var currentPastDays = 0;
-            for (var i=0; i<12; i++) {
-                var angle = (currentPastDays / numDaysOneYear) * 2 * Math.PI;
+            let deadline = parentDiv.find('.deadline-time').text();
+            let title = $(this).find('.conf-title').text();
+            let href = $(this).find('.conf-title').attr('href');
+            let id = href.substring(href.lastIndexOf('=') + 1);
 
-                var startX = centerX + middleRadius * Math.sin(angle);
-                var startY = centerY - middleRadius * Math.cos(angle);
-                var endX = centerX + outerRadius * Math.sin(angle);
-                var endY = centerY - outerRadius * Math.cos(angle);
-                
-                // Draw month boundary
-                ctx.strokeStyle = '#FFFFFF';
-                ctx.lineWidth = 1;
-                ctx.beginPath();
-                ctx.moveTo(startX, startY);
-                ctx.lineTo(endX, endY);
-                ctx.stroke();
-
-                // Draw month name
-                var textX = centerX + (outerRadius + 20) * Math.sin(angle);
-                var textY = centerY - (outerRadius + 20) * Math.cos(angle);
-                var monthThreeLetterName = moment('2019-' + (i + 1) + '-01').format("MMMM").substr(0, 3);
-
-                ctx.textAlign = "center";
-                ctx.textBaseline = 'middle';
-                ctx.fillText(monthThreeLetterName, textX, textY);
-
-                currentPastDays += numberOfDaysPerMonth[i];
-            }
-
-            // Draw conferences
-            // Find conferences
-            let conferences = $('.conf-row');
-            console.log(conferences.length);
-            conferences.each(function(index) {
-              var parentDiv = $(this).parent();
-              // Hide invisible conferences
-              if (!parentDiv.is(":visible")) {
-                return;
-              }
-
-              var deadlineTime = parentDiv.find(".deadline-time").text();
-              if ("TBA" === deadlineTime) {
-                return;
-              }
-
-              deadlineTime = moment(deadlineTime);
-              // Check if date has passed already
-              if (deadlineTime.diff(today) < 0) {
-                return;
-              }
-
-              // Check if the date is more than one year away
-              if (deadlineTime.diff(todayInOneYear) > 0) {
-                return;
-              }
-
-              // Get hash of id
-              let confTitle = $(this).find(".conf-title").text();
-              let hash = Math.abs(confTitle.hashCode());
-              let color = colorPalette[hash % colorPalette.length];
-
-              // Draw marker on outer circle
-              var newYearsDay = moment(todayInOneYear.format("YYYY") + "-01-01");
-              var todayFraction = todayInOneYear.diff(newYearsDay, "days") / numDaysOneYear;
-
-              var numberOfDaysToToday = deadlineTime.diff(today, "days");
-              var numberOfDaysFraction = numberOfDaysToToday / numDaysOneYear + todayFraction;
-              if (numberOfDaysFraction > 1) {
-                numberOfDaysFraction -= 1;
-              }
-
-              var angle = numberOfDaysFraction * Math.PI * 2;
-
-              var markerX = centerX + outerRadius * Math.sin(angle);
-              var markerY = centerY - outerRadius * Math.cos(angle);
-
-              drawCircle(markerX, markerY, 5, 0, Math.PI * 2, false, color, "fill", 1);
+            conferences.push({
+              deadline: deadline,
+              title: title,
+              id: id,
+              href: href
             });
+          });
 
-        }
-
-        function drawRect(x, y, width, height, color) {
-            ctx.fillStyle = color;
-            ctx.fillRect(x, y, width, height);
-        }
-
-        function drawArc(x, y, radius, start, end, clockwise) {
-            ctx.beginPath();
-            ctx.arc(x, y, radius, start, end, clockwise);
-        }
-
-        function drawCircle(x, y, radius, start, end, clockwise, color, type, thickness) {
-            if ("fill" === type) {
-                ctx.fillStyle = color;
-                drawArc(x, y, radius, start, end, clockwise);
-                ctx.fill();
-            }
-            else if ("stroke" == type) {
-                ctx.strokeStyle = color;
-                ctx.lineWidth = thickness;
-                drawArc(x, y, radius, start, end, clockwise);
-                ctx.stroke();
-            }
+          clock.setConferences(conferences);
+          clock.draw();
         }
     });
     </script>
