@@ -55,6 +55,15 @@
   place: Kuala Lumpur, Malaysia
   sub: SP
 
+- title: IEEE International Workshop on Machine Learning for Signal Processing
+  year: 2019
+  id: mlsp19
+  link: https://www.ieeemlsp.cc/
+  deadline: '2019-06-05'
+  date: Oct 13-16, 2019
+  place: Pittsburgh, PA, USA
+  sub: ML
+
 - title: ICLR
   year: 2019
   id: iclr19
