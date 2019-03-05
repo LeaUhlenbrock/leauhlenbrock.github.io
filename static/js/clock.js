@@ -93,18 +93,18 @@ DeadlineClock.prototype = (function() {
             let conference = conferences[i];
             let deadline = conference.deadline;
             if ("TBA" === deadline) {
-                return;
+                continue;
             }
 
             deadline = moment(deadline);
             // Check if deadline has passed already
             if (deadline.diff(today) < 0) {
-                return;
+                continue;
             }
 
             // Check if date is more than one year away
             if (deadline.diff(todayInOneYear) > 0) {
-                return;
+                continue;
             }
 
             // Get hash of conference title
