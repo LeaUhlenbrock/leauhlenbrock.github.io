@@ -64,7 +64,8 @@
             <canvas id="clock-canvas"></canvas>
         </div>
 
-        {% for conf in site.data.conferences %}
+        {% assign conferences = site.data.conferences | sort: "deadline" %}
+        {% for conf in conferences %}
         <!-- A conference can have multiple subs, separated by comma -->
         <div id="{{conf.id}}" class="conf{% assign subs = conf.sub | split: "," %}{% for sub in subs %} {{sub}}-conf{% endfor %}">
           <div class="row conf-row">
