@@ -1,13 +1,16 @@
-## Forensics conference deadlines
+## Forensics conference and special issue paper deadlines
 
-[Originally developed](https://github.com/abhshkdz/ai-deadlines/) by [abhshkdz](//twitter.com/abhshkdz)
+![Deadline clock][clock]
 
-Countdown timers to keep track of forensics and machine learning conference deadlines.
+Countdown timers to keep track of forensics and machine learning paper submission deadlines.
+
+[Originally developed](https://github.com/abhshkdz/ai-deadlines/) by [abhshkdz](//twitter.com/abhshkdz). Deadline clock idea by Patrick Mullan.
 
 ## License
 
 [MIT][1]
 
+[clock]: assets/deadline_clock.png
 [1]: https://abhshkdz.mit-license.org/
 [2]: http://aideadlin.es/
 [3]: http://geodeadlin.es/
