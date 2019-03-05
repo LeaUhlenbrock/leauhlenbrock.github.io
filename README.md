@@ -1,6 +1,6 @@
 ## Forensics conference and special issue paper deadlines
 
-![Deadline clock][assets/deadline_clock.png]
+![Deadline clock](assets/deadline_clock.png)
 
 **[Demo](https://btlorch.github.io/forensics-deadlines)**
 
