@@ -65,7 +65,8 @@
         </div>
 
         {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+        <!-- A conference can have multiple subs, separated by comma -->
+        <div id="{{conf.id}}" class="conf{% assign subs = conf.sub | split: "," %}{% for sub in subs %} {{sub}}-conf{% endfor %}">
           <div class="row conf-row">
               <div class="col-xs-5 col-sm-6">
                   <a class="conf-title" href="conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
@@ -98,8 +99,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12">
-              <span title="Click to only show {{conf.sub}} conferences" id="{{conf.sub}}-sub" class="conf-sub"></span>
+            <div class="col-xs-12" class="subs">
+              {% assign subs = conf.sub | split: "," %}
+              {% for sub in subs %}
+              <span title="Click to only show {{sub}} conferences" class="conf-sub" data-sub="{{sub}}">{{sub}}</span>
+              {% endfor %}
             </div>
           </div>
           <hr>
@@ -123,23 +127,31 @@
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
-        // Get all subs
+        // Set up lookup tables for conference name to sub and vice versa
         var conf_type_data = {{ site.data.types | jsonify }};
         var all_subs = [];
-        var sub2name = {}; var name2sub = {};
+        var sub2name = {};
+        var name2sub = {};
         for (var i = 0; i < conf_type_data.length; i++) {
           all_subs[i] = conf_type_data[i]['sub'];
           sub2name[conf_type_data[i]['sub']] = conf_type_data[i]['name'];
           name2sub[conf_type_data[i]['name']] = conf_type_data[i]['sub'];
         }
 
+        // Loop over conferences
         {% for conf in site.data.conferences %}
+          // Replace sub shortnames with full category names
+          $('#{{conf.id}} .conf-sub').each(function() {
+            let sub = $(this).attr('data-sub');
+            $(this).html(sub2name[sub].toLocaleLowerCase());
+          });
+
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "Europe/Berlin" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer
@@ -168,14 +180,32 @@
             }
           });
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
-          $('#{{conf.id}} .conf-sub').html(sub2name["{{conf.sub}}"].toLocaleLowerCase());
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0)
+          if (today.diff(confDate) > 0) {
             $('#{{conf.id}}').addClass('past');
+          }
         {% endif %}
         {% endfor %}
+
+        // Conferences can contain multiple subs, therefore only hide conferences which don't belong to a single active sub
+        function hideInactiveConferences() {
+          // Hide all except active subs
+          $('.conf').each(function() {
+            let confSubs = $('.conf-sub', this).map(function() { return $(this).attr('data-sub') }).get();
+            var hide = true;
+            for (var i = 0; i < subs.length && hide; i++) {
+              if (confSubs.includes(subs[i])) {
+                hide = false;
+              }
+            }
+
+            if (hide) {
+              $(this).hide();
+            }
+          });
+        }
 
         // Get subjects from URL
         var url = new URL(window.location);
@@ -196,12 +226,8 @@
             $('#' + subs[i] + '-checkbox').prop('checked', true);
           }
         }
-        // Hide unchecked subs
-        for (var i = 0; i < all_subs.length; i++) {
-          if (subs.indexOf(all_subs[i]) < 0) {
-            $('.' + all_subs[i] + '-conf').hide();
-          }
-        }
+
+        hideInactiveConferences();
         store.set('{{ site.domain }}', subs);
         window.history.pushState('', '', '?sub=' + subs.join());
         drawVisibleConferences();
@@ -230,20 +256,18 @@
 
         // Event handler on sub click
         $('.conf-sub').click(function(e) {
-          var cid = $(this).prop('id');
-          var csub = cid.substring(0, cid.length - 4);
-          for (var i = 0; i < subs.length; i++) {
-            if (subs[i] != csub) {
-              $('#' + subs[i] + '-checkbox').prop('checked', false);
-              $('.' + subs[i] + '-conf').hide();
-            }
-            else {
-              $('#' + subs[i] + '-checkbox').prop('checked', true);
-              $('.' + subs[i] + '-conf').show();
-            }
-          }
+          let csub = $(this).attr('data-sub');
+          // Uncheck all checkboxes except for csub
+          $('.checkbox input:not(#' + csub + '-checkbox)').prop('checked', false);
+          // Make sure that selected sub's checkbox is checked
+          $('.checkbox #' + csub + '-checkbox').prop('checked', true);
+          // Show all conferences belonging to the ticked sub
+          $('.' + csub + '-conf').show();
+
+          // Now only the clicked category shall be active, therefore hide all others
           subs = [csub];
-          console.log(subs);
+          hideInactiveConferences(subs);
+
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '?sub=' + subs.join());
           drawVisibleConferences();
