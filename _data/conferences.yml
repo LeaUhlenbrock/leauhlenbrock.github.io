@@ -21,6 +21,16 @@
   place: Paris, France
   sub: FO
 
+- title: IH&MMSec Special Sesson on Media Forensics - Fake or Real?
+  year: 2019
+  id: ihmmsec19mf
+  link: https://www.ihmmsec.org/cms/special-session/index.html
+  timezone: Europe/Berlin
+  deadline: '2019-03-15 23:59:59'
+  date: July 3-5, 2019
+  place: Paris, France
+  sub: FO
+
 - title: ICCV
   year: 2019
   id: iccv19
