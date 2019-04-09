@@ -1,53 +1,5 @@
 
 ---
-
-- title: EUSIPCO
-  year: 2019
-  id: eusipco19
-  link: http://eusipco2019.org/
-  deadline: '2019-03-04 13:00:00'
-  timezone: CET
-  date: September 2-6, 2019
-  place: Coruña, Spain
-  sub: SP
-
-- title: IH&MMSec
-  year: 2019
-  id: ihmmsec19
-  link: https://www.ihmmsec.org
-  timezone: Etc/GMT
-  deadline: '2019-03-06 23:59:59'
-  date: July 3-5, 2019
-  place: Paris, France
-  sub: FO
-
-- title: IH&MMSec Special Sesson on Media Forensics - Fake or Real?
-  year: 2019
-  id: ihmmsec19mf
-  link: https://www.ihmmsec.org/cms/special-session/index.html
-  timezone: Europe/Berlin
-  deadline: '2019-03-15 23:59:59'
-  date: July 3-5, 2019
-  place: Paris, France
-  sub: FO
-
-- title: ICCV
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: '2019-03-22 23:59:00'
-  timezone: Etc/GMT
-  date: October 27 - November 3, 2019
-  place: Seoul, Korea
-  sub: CV
-
-- title: IEEE TMM Special Issue on Multimedia Computing with Interpretable Machine Learning
-  year: 2019
-  id: mciml19
-  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/TMM_SI_Multimedia_Computing.pdf
-  deadline: '2019-03-31'
-  sub: ML
-
 - title: IEEE Access Special Section on Digital Forensics through Multimedia Source Inference
   year: 2019
   id: ieeedfmsi
@@ -74,6 +26,16 @@
   place: Pittsburgh, PA, USA
   sub: ML,SP
 
+- title: Winter Conference on Applications of Computer Vision
+  year: 2020
+  id: wacv20
+  link: http://wacv20.wacv.net/
+  deadline: '2019-07-26 11:59:59'
+  timezone: PT
+  date: Match 2-5, 2019
+  place: Snowmass village, CO, USA
+  sub: CV
+
 - title: ICASSP
   year: 2020
   id: icassp2020
@@ -90,4 +52,15 @@
 # * IEEE ICASSP 2020. Deadline usually in October.
 # * DFRWS EU 2020. Deadline usually in November.
 # * CVPR 2020: Deadline usually in November.
+# * EUSIPCO 2020: Deadline in February.
 # * IEEE ICIP 2020. Deadline usually in February/March.
+
+# - title: EUSIPCO
+#   year: 2020
+#   id: eusipco20
+#   link: http://eusipco2020.org/
+#   deadline: '2020-02-XX'
+#   timezone: CET
+#   date: XXX
+#   place: Amsterdam, Netherlands
+#   sub: SP
