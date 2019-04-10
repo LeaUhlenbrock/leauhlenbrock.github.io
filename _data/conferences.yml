@@ -38,12 +38,28 @@
 
 - title: ICASSP
   year: 2020
-  id: icassp2020
+  id: icassp20
   link: http://2020.ieeeicassp.org/
   deadline: TBA
   date: May 4-9, 2020
   place: Barcelona, Spain
   sub: SP
+
+- title: CVPR
+  year: 2020
+  id: cvpr20
+  deadline: TBA
+  place: Seattle, WA
+  sub: CV
+
+- title: ECCV
+  year: 2020
+  id: eccv20
+  link: http://eccv2020.eu/
+  deadline: TBA
+  date: August 23-28, 2020
+  place: Glasgow, Scotland
+  sub: CV
 
 # Upcoming conferences
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
