@@ -30,6 +30,8 @@
   year: 2019
   id: wifs19
   link: https://wifs2019.tudelft.nl/
+  deadline: '2019-06-30 23:59:59'
+  timezone: Etc/GMT
   date: December 9-12, 2019
   place: Delft, Netherlands
   sub: FO
