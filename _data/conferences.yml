@@ -26,6 +26,14 @@
   place: Pittsburgh, PA, USA
   sub: ML,SP
 
+- title: IEEE International Workshop on Information Forensics and Security (WIFS)
+  year: 2019
+  id: wifs19
+  link: https://wifs2019.tudelft.nl/
+  date: December 9-12, 2019
+  place: Delft, Netherlands
+  sub: FO
+
 - title: Winter Conference on Applications of Computer Vision
   year: 2020
   id: wacv20
