@@ -26,6 +26,16 @@
   place: Pittsburgh, PA, USA
   sub: ML,SP
 
+- title: 2nd International Workshop on Recent Advances in Digital Security: Biometrics and Forensics
+  year: 2019
+  id: biofor19
+  link: http://www.grip.unina.it/biofor2019/index.php/important-dates.html
+  deadline: '2019-06-05'
+  timezone: Etc/GMT
+  date: Sep 10, 2019
+  place: Trento, Italy
+  sub: FO, ML, SP
+
 - title: IEEE International Workshop on Information Forensics and Security (WIFS)
   year: 2019
   id: wifs19
