@@ -60,7 +60,8 @@
   year: 2020
   id: icassp20
   link: http://2020.ieeeicassp.org/
-  deadline: TBA
+  deadline: '2019-10-21 23:59:59'
+  timezone: Etc/GMT
   date: May 4-9, 2020
   place: Barcelona, Spain
   sub: SP
