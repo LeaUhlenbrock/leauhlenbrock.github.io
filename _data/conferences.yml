@@ -40,6 +40,15 @@
   place: Barcelona, Spain
   sub: SP
 
+- title: CVPR
+  year: 2020
+  id: cvpr20
+  deadline: '2020-06-16'
+  link: http://cvpr2020.thecvf.com/
+  date: June 16-18, 2020
+  place: Seattle, WA
+  sub: CV
+
 - title: EUSIPCO
   year: 2020
   id: eusipco20
@@ -49,13 +58,6 @@
   date: August 24-28, 2020
   place: Amsterdam, Netherlands
   sub: SP
-
-- title: CVPR
-  year: 2020
-  id: cvpr20
-  deadline: TBA
-  place: Seattle, WA
-  sub: CV
 
 - title: ECCV
   year: 2020
