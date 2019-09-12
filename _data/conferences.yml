@@ -1,6 +1,6 @@
 
 ---
-- title: Media Watermarking, Security, and Forensics 2020
+- title: Media Watermarking, Security, and Forensics
   year: 2020
   id: mwsf20
   link: http://www.imaging.org/site/IST/Conferences/EI/EI_2020/Conference/C_MWSF.aspx
@@ -10,7 +10,7 @@
   place: Burlingame, CA, USA
   sub: FO
 
-- title: DFRWS EU 2020
+- title: DFRWS EU
   year: 2020
   id: dfrwseu20
   link: https://www.dfrws.org/conferences/dfrws-eu-2020
@@ -65,7 +65,7 @@
   timezone: Etc/GMT
   sub: FO,SP
 
-- title: 2020 IEEE International Conference on Image Processing (ICIP)
+- title: IEEE International Conference on Image Processing (ICIP)
   year: 2020
   id: icip20
   link: https://signalprocessingsociety.org/blog/icip-2020-2020-ieee-international-conference-image-processing
