@@ -74,6 +74,16 @@
   place: Abu Dhabi, United Arab Emirates
   sub: SP
 
+- title: Winter Conference on Applications of Computer Vision (WACV ’20)
+  year: 2020
+  id: wacv20
+  link: http://wacv20.wacv.net/
+  deadline: '2019-10-11 23:59:59'
+  timezone: PT
+  date: March 2-5, 2020
+  place: Snowmass village, CO
+  sub: CV
+
 # Upcoming conferences
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadline usually in July.
