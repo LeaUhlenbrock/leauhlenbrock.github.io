@@ -1,34 +1,5 @@
 
 ---
-- title: Media Watermarking, Security, and Forensics
-  year: 2020
-  id: mwsf20
-  link: http://www.imaging.org/site/IST/Conferences/EI/EI_2020/Conference/C_MWSF.aspx
-  deadline: '2019-09-30'
-  timezone: PT
-  date: January 26-30, 2020
-  place: Burlingame, CA, USA
-  sub: FO
-
-- title: DFRWS EU
-  year: 2020
-  id: dfrwseu20
-  link: https://www.dfrws.org/conferences/dfrws-eu-2020
-  deadline: '2019-10-04'
-  date: March 25-27, 2020
-  place: Oxford, UK
-  sub: FO
-
-- title: ICASSP
-  year: 2020
-  id: icassp20
-  link: http://2020.ieeeicassp.org/
-  deadline: '2019-10-21 23:59:59'
-  timezone: Etc/GMT
-  date: May 4-9, 2020
-  place: Barcelona, Spain
-  sub: SP
-
 - title: CVPR
   year: 2020
   id: cvpr20
@@ -74,21 +45,23 @@
   place: Abu Dhabi, United Arab Emirates
   sub: SP
 
-- title: Winter Conference on Applications of Computer Vision (WACV ’20)
+- title: ACM Workshop on Information Hiding & Multimedia Security
   year: 2020
-  id: wacv20
-  link: http://wacv20.wacv.net/
-  deadline: '2019-10-11 23:59:59'
-  timezone: PT
-  date: March 2-5, 2020
-  place: Snowmass village, CO
-  sub: CV
+  id: ihmmsec20
+  link: https://www.ihmmsec.org
+  deadline: '2020-02-02'
+  timezone: Etc/GMT
+  date: June 22-24, 2020
+  place: Denver, CO
+  sub: FO,SP
 
 # Upcoming conferences
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadline usually in July.
 # * IS&T Electronic Imaging 2020: Media Watermarking, Security, and Forensics. Deadline usually in September.
 # * ICLR 2020. Deadline usually in September
+# * DFRWS EU. Deadline usually in October.
+# * Winter Conference on Applications in Computer Vision (WACV). Second deadline used to be in October.
 # * IEEE ICASSP 2020. Deadline usually in October.
 # * DFRWS EU 2020. Deadline usually in November.
 # * CVPR 2020: Deadline usually in November.
