@@ -1,14 +1,5 @@
 
 ---
-- title: CVPR
-  year: 2020
-  id: cvpr20
-  deadline: '2019-11-15'
-  link: http://cvpr2020.thecvf.com/
-  date: June 16-18, 2020
-  place: Seattle, WA
-  sub: CV
-
 - title: EUSIPCO
   year: 2020
   id: eusipco20
@@ -54,6 +45,15 @@
   date: June 22-24, 2020
   place: Denver, CO
   sub: FO,SP
+
+- title: Neural Information Processing Systems (NeurIPS)
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: '2020-05-23'
+  date: Dezember 2-8, 2020
+  place: Vancouver, Canada
+  sub: CV
 
 # Upcoming conferences
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
