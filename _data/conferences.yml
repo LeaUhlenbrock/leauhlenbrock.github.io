@@ -64,15 +64,25 @@
   place: Milan, Italy
   sub: CV,ML
 
+- title: DFRWS USA 2020
+  year: 2020
+  id: dfrwsusa2020
+  link: https://dfrws.org/conferences/dfrws-usa-2020
+  deadline: '2020-01-24'
+  date: July 19-22, 2020
+  place: Memphis, TN
+  sub: FO
+
 # Upcoming conferences
+# * DFRWS USA. Deadline usually in January.
+# * EUSIPCO: Deadline in February.
+# * IEEE ICIP. Deadline usually in February/March.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadline usually in July.
-# * IS&T Electronic Imaging 2020: Media Watermarking, Security, and Forensics. Deadline usually in September.
+# * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
 # * ICLR 2020. Deadline usually in September
 # * DFRWS EU. Deadline usually in October.
 # * Winter Conference on Applications in Computer Vision (WACV). Second deadline used to be in October.
 # * IEEE ICASSP 2020. Deadline usually in October.
-# * DFRWS EU 2020. Deadline usually in November.
-# * CVPR 2020: Deadline usually in November.
-# * EUSIPCO 2020: Deadline in February.
-# * IEEE ICIP 2020. Deadline usually in February/March.
+# * DFRWS EU. Deadline usually in November.
+# * CVPR: Deadline usually in November.
