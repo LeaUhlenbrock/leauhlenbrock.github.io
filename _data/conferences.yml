@@ -19,14 +19,6 @@
   place: Glasgow, Scotland
   sub: CV
 
-- title: IEEE JSTSP Special Issue on Data Driven Media Authentication and Forensics
-  year: 2020
-  id: jstsp19
-  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/JSTSP_SI_data_driven_media.pdf
-  deadline: '2019-11-01'
-  timezone: Etc/GMT
-  sub: FO,SP
-
 - title: IEEE International Conference on Image Processing (ICIP)
   year: 2020
   id: icip20
