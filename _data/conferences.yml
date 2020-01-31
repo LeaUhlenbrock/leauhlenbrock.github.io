@@ -57,13 +57,11 @@
   place: Milan, Italy
   sub: CV,ML
 
-- title: DFRWS USA 2020
+- title: Multimedia Tools and Applications Special Issue on Interdisciplinary Forensics
   year: 2020
-  id: dfrwsusa2020
-  link: https://dfrws.org/conferences/dfrws-usa-2020
-  deadline: '2020-01-24'
-  date: July 19-22, 2020
-  place: Memphis, TN
+  id: mta2020
+  link: https://www.springer.com/journal/11042/updates/17438694
+  daedline: '2020-02-28'
   sub: FO
 
 # Upcoming conferences
