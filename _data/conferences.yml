@@ -65,6 +65,13 @@
   deadline: '2020-02-28'
   sub: FO
 
+- title: EURASIP Journal on Information Security: Facing emerging challenges in multimedia forensics
+  year: 2020
+  id: eurasip2020
+  link: https://jis-eurasipjournals.springeropen.com/fecmf
+  deadline: '2020-04-30'
+  sub: FO,SP
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
