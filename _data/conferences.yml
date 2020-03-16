@@ -79,6 +79,15 @@
   deadline: '2020-06-15'
   sub: FO,SP,ML
 
+- title: "IEEE International Workshop on Information Forensics and Security (WIFS)"
+  year: 2020
+  id: wifs2020
+  link: https://www.wifs2020.nyu.edu/home
+  deadline: '2020-06-30'
+  date: December 6-9, 2020
+  place: New York City, NY
+  sub: FO,SP
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
