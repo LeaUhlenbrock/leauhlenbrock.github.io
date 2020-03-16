@@ -72,6 +72,13 @@
   deadline: '2020-04-30'
   sub: FO,SP
 
+- title: "MultiMedia FORensics in the WILD (MMForWILD)"
+  year: 2020
+  id: mmforwild2020
+  link: https://iplab.dmi.unict.it/mmforwild/
+  deadline: '2020-06-15'
+  sub: FO,SP,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
