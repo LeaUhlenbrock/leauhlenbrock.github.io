@@ -1,44 +1,5 @@
 
 ---
-- title: EUSIPCO
-  year: 2020
-  id: eusipco20
-  link: http://eusipco2020.org/
-  deadline: '2020-02-21'
-  timezone: Etc/GMT
-  date: August 24-28, 2020
-  place: Amsterdam, Netherlands
-  sub: SP
-
-- title: ECCV
-  year: 2020
-  id: eccv20
-  link: http://eccv2020.eu/
-  deadline: '2020-03-05'
-  date: August 23-28, 2020
-  place: Glasgow, Scotland
-  sub: CV
-
-- title: IEEE International Conference on Image Processing (ICIP)
-  year: 2020
-  id: icip20
-  link: https://signalprocessingsociety.org/blog/icip-2020-2020-ieee-international-conference-image-processing
-  deadline: '2020-02-07 23:59:59'
-  timezone: PST
-  date: October 25-28, 2020
-  place: Abu Dhabi, United Arab Emirates
-  sub: SP
-
-- title: ACM Workshop on Information Hiding & Multimedia Security
-  year: 2020
-  id: ihmmsec20
-  link: https://www.ihmmsec.org
-  deadline: '2020-02-14'
-  timezone: Etc/GMT
-  date: June 22-24, 2020
-  place: Denver, CO
-  sub: FO,SP
-
 - title: Neural Information Processing Systems (NeurIPS)
   year: 2020
   id: neurips20
@@ -91,7 +52,9 @@
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
+# * ACM IH&MMSec: Deadline usually in February.
 # * IEEE ICIP. Deadline usually in February/March.
+# * ECCV: biennial scheduled in other years than ICCV. Deadline usually in March.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadline usually in July.
 # * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
