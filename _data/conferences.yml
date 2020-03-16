@@ -33,11 +33,13 @@
   deadline: '2020-04-30'
   sub: FO,SP
 
-- title: "MultiMedia FORensics in the WILD (MMForWILD)"
+- title: "MultiMedia FORensics in the WILD (MMForWILD) workshop at ICPR"
   year: 2020
   id: mmforwild2020
   link: https://iplab.dmi.unict.it/mmforwild/
   deadline: '2020-06-15'
+  date: September 18, 2020
+  place: Milan, Italy
   sub: FO,SP,ML
 
 - title: "IEEE International Workshop on Information Forensics and Security (WIFS)"
