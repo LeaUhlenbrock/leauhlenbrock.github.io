@@ -44,11 +44,11 @@
   place: New York City, NY
   sub: FO,SP
 
-- title: "IS&T Electronic Imaging 2021: Media Watermarking, Security, and Forensics 2021"
+- title: "IS&T Electronic Imaging 2021: Media Watermarking, Security, and Forensics"
   year: 2021
   id: ist2021
   link: http://www.imaging.org/site/IST/IST/Conferences/EI/EI_2021/Conference/C_MWSF.aspx
-  daedline: '2020-08-12'
+  deadline: '2020-08-12'
   date: January 17, 2021
   place: San Francisco, CA
   sub: FO, SP
