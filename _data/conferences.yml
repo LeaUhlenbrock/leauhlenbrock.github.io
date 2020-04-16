@@ -13,7 +13,7 @@
   year: 2020
   id: icpr2020
   link: https://www.micc.unifi.it/icpr2020/
-  deadline: '2020-03-18 23:59:59'
+  deadline: '2020-04-15 23:59:59'
   timezone: Etc/GMT
   date: September 13-18, 2020
   place: Milan, Italy
@@ -23,7 +23,7 @@
   year: 2020
   id: eurasip2020
   link: https://jis-eurasipjournals.springeropen.com/fecmf
-  deadline: '2020-04-30'
+  deadline: '2020-07-31'
   sub: FO,SP
 
 - title: "MultiMedia FORensics in the WILD (MMForWILD) workshop at ICPR"
@@ -43,6 +43,15 @@
   date: December 6-9, 2020
   place: New York City, NY
   sub: FO,SP
+
+- title: "IS&T Electronic Imaging 2021: Media Watermarking, Security, and Forensics 2021"
+  year: 2021
+  id: ist2021
+  link: http://www.imaging.org/site/IST/IST/Conferences/EI/EI_2021/Conference/C_MWSF.aspx
+  daedline: '2020-08-12'
+  date: January 17, 2021
+  place: San Francisco, CA
+  sub: FO, SP
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
