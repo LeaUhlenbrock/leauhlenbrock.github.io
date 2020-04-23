@@ -53,6 +53,15 @@
   place: Milan, Italy
   sub: CV,ML
 
+- title: German Conference on Pattern Recognition
+  year: 2020
+  id: gcpr2020
+  link: https://www.gcpr-vmv-vcbm-2020.uni-tuebingen.de/
+  deadline: '2020-07-10'
+  date: 'September 28 - October 01, 2020'
+  place: Tübingen, Germany
+  sub: SP,ML,CV
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
