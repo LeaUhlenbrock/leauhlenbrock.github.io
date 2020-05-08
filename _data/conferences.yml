@@ -62,6 +62,14 @@
   place: Tübingen, Germany
   sub: SP,ML,CV
 
+- title: "Sicherheits- und Strafrecht im Angesicht der Digitalisierung"
+  year: 2020
+  id: sicherheitsstrafrecht2020
+  deadline: '2020-06-15'
+  date: '2020-07-17'
+  place: Cyberspace
+  sub: CL
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
