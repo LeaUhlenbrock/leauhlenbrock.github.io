@@ -70,6 +70,13 @@
   place: Cyberspace
   sub: CL
 
+- title: "Special Issue on Advances in Digital Security: Biometrics and Forensics - Pattern Recognition Letters"
+  year: 2020
+  id: prlbiofor2020
+  link: https://www.journals.elsevier.com/pattern-recognition-letters/call-for-papers/advances-in-digital-security-biometrics-and-forensics
+  deadline: '2020-06-30'
+  sub: SP,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
