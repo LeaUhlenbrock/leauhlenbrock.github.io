@@ -77,6 +77,15 @@
   deadline: '2020-06-30'
   sub: SP,ML
 
+- title: Winter Conference on Applications in Computer Vision (WACV) - First Round
+  year: 2021
+  id: wacv2021
+  deadline: '2020-06-12 11:59:00'
+  timezone: PDT
+  link: http://wacv2021.thecvf.com/home
+  place: Waikoloa, Hawaii
+  sub: CV,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
