@@ -66,7 +66,7 @@
   year: 2020
   id: sicherheitsstrafrecht2020
   deadline: '2020-06-15'
-  date: '2020-07-17'
+  date: July 17, 2020
   place: Cyberspace
   sub: CL
 
@@ -82,6 +82,7 @@
   id: wacv2021
   deadline: '2020-06-12 11:59:00'
   timezone: PDT
+  date: January 5-9, 2021
   link: http://wacv2021.thecvf.com/home
   place: Waikoloa, Hawaii
   sub: CV,ML
