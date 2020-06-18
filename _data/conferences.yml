@@ -87,6 +87,24 @@
   place: Waikoloa, Hawaii
   sub: CV,ML
 
+- title: International Conference on Image Analysis and Processing
+  year: 2021
+  id: iciap2021
+  deadline: '2021-05-05'
+  date: September 13-17, 2021
+  link: https://www.iciap2021.org/
+  place: Lecce, Italy
+  sub: SP
+
+- title: 2021 IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2021
+  id: icassp2021
+  deadline: '2020-10-19'
+  date: 'June 6 - 11, 2021'
+  link: https://2021.ieeeicassp.org/
+  place: Toronto, Ontario, Canada
+  sub: SP,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
