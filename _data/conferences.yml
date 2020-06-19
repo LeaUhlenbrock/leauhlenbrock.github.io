@@ -1,14 +1,5 @@
 
 ---
-- title: Neural Information Processing Systems (NeurIPS)
-  year: 2020
-  id: neurips20
-  link: https://nips.cc/Conferences/2020
-  deadline: '2020-05-23'
-  date: Dezember 2-8, 2020
-  place: Vancouver, Canada
-  sub: ML
-
 - title: "EURASIP Journal on Information Security: Facing emerging challenges in multimedia forensics"
   year: 2020
   id: eurasip2020
@@ -62,14 +53,6 @@
   place: Tübingen, Germany
   sub: SP,ML,CV
 
-- title: "Sicherheits- und Strafrecht im Angesicht der Digitalisierung"
-  year: 2020
-  id: sicherheitsstrafrecht2020
-  deadline: '2020-06-15'
-  date: July 17, 2020
-  place: Cyberspace
-  sub: CL
-
 - title: "Special Issue on Advances in Digital Security: Biometrics and Forensics - Pattern Recognition Letters"
   year: 2020
   id: prlbiofor2020
@@ -77,10 +60,10 @@
   deadline: '2020-06-30'
   sub: SP,ML
 
-- title: Winter Conference on Applications in Computer Vision (WACV) - First Round
+- title: Winter Conference on Applications in Computer Vision (WACV) - Second Round
   year: 2021
   id: wacv2021
-  deadline: '2020-06-12 11:59:00'
+  deadline: '2020-08-26 11:59:00'
   timezone: PDT
   date: January 5-9, 2021
   link: http://wacv2021.thecvf.com/home
@@ -105,14 +88,25 @@
   place: Toronto, Ontario, Canada
   sub: SP,ML
 
+- title: 2021 Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2021
+  id: cvpr2021
+  deadline: '2020-11-16'
+  date: June 19-25, 2021
+  link: http://cvpr2021.thecvf.com/
+  place: Nashville, TN
+  sub: CV,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
 # * ACM IH&MMSec: Deadline usually in February.
 # * IEEE ICIP. Deadline usually in February/March.
 # * ECCV: biennial scheduled in other years than ICCV. Deadline usually in March.
+# * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
+# * International Conference on Image Analysis and Processing (ICIAP). Deadline usually in May.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
-# * Winter Conference on Applications of Computer Vision. Deadline usually in July.
+# * Winter Conference on Applications of Computer Vision. Deadlines usually in June (1st round) and August (2nd round).
 # * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
 # * ICLR 2020. Deadline usually in September
 # * DFRWS EU. Deadline usually in October.
