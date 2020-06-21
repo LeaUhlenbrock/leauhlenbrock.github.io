@@ -97,6 +97,15 @@
   place: Nashville, TN
   sub: CV,ML
 
+- title: International Workshop on Biometrics and Forensics (IWBF)
+  year: 2021
+  id: iwbf2021
+  deadline: '2021-02-21'
+  date: May 6-7, 2021
+  place: Rome, Italy
+  link: https://www.iwbf2021.com/about/
+  sub: FO,SP
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
