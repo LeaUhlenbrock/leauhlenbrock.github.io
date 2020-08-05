@@ -1,12 +1,5 @@
 
 ---
-- title: "EURASIP Journal on Information Security: Facing emerging challenges in multimedia forensics"
-  year: 2020
-  id: eurasip2020
-  link: https://jis-eurasipjournals.springeropen.com/fecmf
-  deadline: '2020-07-31'
-  sub: FO,SP
-
 - title: "MultiMedia FORensics in the WILD (MMForWILD) workshop at ICPR"
   year: 2020
   id: mmforwild2020
@@ -16,15 +9,6 @@
   place: Milan, Italy
   sub: FO,SP,ML
 
-- title: "IEEE International Workshop on Information Forensics and Security (WIFS)"
-  year: 2020
-  id: wifs2020
-  link: https://www.wifs2020.nyu.edu/home
-  deadline: '2020-07-31'
-  date: December 6-9, 2020
-  place: New York City, NY
-  sub: FO,SP
-
 - title: "IS&T Electronic Imaging 2021: Media Watermarking, Security, and Forensics"
   year: 2021
   id: ist2021
@@ -33,32 +17,6 @@
   date: January 17, 2021
   place: San Francisco, CA
   sub: FO,SP
-
-- title: International Conference on Pattern Recognition (2nd round)
-  year: 2020
-  id: icpr2020
-  link: https://www.micc.unifi.it/icpr2020/
-  deadline: '2020-07-15 23:59:59'
-  timezone: Etc/GMT
-  date: January 10-25, 2021
-  place: Milan, Italy
-  sub: CV,ML
-
-- title: German Conference on Pattern Recognition
-  year: 2020
-  id: gcpr2020
-  link: https://www.gcpr-vmv-vcbm-2020.uni-tuebingen.de/
-  deadline: '2020-07-10'
-  date: 'September 28 - October 01, 2020'
-  place: Tübingen, Germany
-  sub: SP,ML,CV
-
-- title: "Special Issue on Advances in Digital Security: Biometrics and Forensics - Pattern Recognition Letters"
-  year: 2020
-  id: prlbiofor2020
-  link: https://www.journals.elsevier.com/pattern-recognition-letters/call-for-papers/advances-in-digital-security-biometrics-and-forensics
-  deadline: '2020-06-30'
-  sub: SP,ML
 
 - title: Winter Conference on Applications in Computer Vision (WACV) - Second Round
   year: 2021
@@ -70,14 +28,14 @@
   place: Waikoloa, Hawaii
   sub: CV,ML
 
-- title: International Conference on Image Analysis and Processing
+- title: DFRWS EU
   year: 2021
-  id: iciap2021
-  deadline: '2021-05-05'
-  date: September 13-17, 2021
-  link: https://www.iciap2021.org/
-  place: Lecce, Italy
-  sub: SP
+  id: dfrwseu2021
+  deadline: '2020-10-02'
+  date: March 29 - April 1
+  place: Oxford, UK
+  sub: FO
+  link: https://dfrws.org/conferences/dfrws-eu-2021/
 
 - title: IEEE International Conference on Acoustics, Speech and Signal Processing
   year: 2021
@@ -106,6 +64,15 @@
   link: https://www.iwbf2021.com/about/
   sub: FO,SP
 
+- title: International Conference on Image Analysis and Processing
+  year: 2021
+  id: iciap2021
+  deadline: '2021-05-05'
+  date: September 13-17, 2021
+  link: https://www.iciap2021.org/
+  place: Lecce, Italy
+  sub: SP
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
@@ -121,5 +88,4 @@
 # * DFRWS EU. Deadline usually in October.
 # * Winter Conference on Applications in Computer Vision (WACV). Second deadline used to be in October.
 # * IEEE ICASSP 2020. Deadline usually in October.
-# * DFRWS EU. Deadline usually in November.
 # * CVPR: Deadline usually in November.
