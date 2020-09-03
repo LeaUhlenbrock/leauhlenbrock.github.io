@@ -9,25 +9,6 @@
   place: Milan, Italy
   sub: FO,SP,ML
 
-- title: "IS&T Electronic Imaging 2021: Media Watermarking, Security, and Forensics"
-  year: 2021
-  id: ist2021
-  link: http://www.imaging.org/site/IST/IST/Conferences/EI/EI_2021/Conference/C_MWSF.aspx
-  deadline: '2020-08-12'
-  date: January 17, 2021
-  place: San Francisco, CA
-  sub: FO,SP
-
-- title: Winter Conference on Applications in Computer Vision (WACV) - Second Round
-  year: 2021
-  id: wacv2021
-  deadline: '2020-08-26 11:59:00'
-  timezone: PDT
-  date: January 5-9, 2021
-  link: http://wacv2021.thecvf.com/home
-  place: Waikoloa, Hawaii
-  sub: CV,ML
-
 - title: DFRWS EU
   year: 2021
   id: dfrwseu2021
