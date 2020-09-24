@@ -21,7 +21,7 @@
 - title: IEEE International Conference on Acoustics, Speech and Signal Processing
   year: 2021
   id: icassp2021
-  deadline: '2020-10-19'
+  deadline: '2020-10-21'
   date: 'June 6 - 11, 2021'
   link: https://2021.ieeeicassp.org/
   place: Toronto, Ontario, Canada
@@ -53,6 +53,15 @@
   link: https://www.iciap2021.org/
   place: Lecce, Italy
   sub: SP
+
+- title: IEEE International Conference on Image Processing (ICIP)
+  year: 2021
+  id: iciap2021
+  deadline: '2021-01-31'
+  date: September 19-21, 2021
+  place: Anchorage, Alaska, USA
+  link: https://2021.ieeeicip.org/CFP2.asp
+  sub: SP,ML
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
