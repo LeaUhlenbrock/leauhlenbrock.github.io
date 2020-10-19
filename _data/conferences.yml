@@ -1,23 +1,5 @@
 
 ---
-- title: "MultiMedia FORensics in the WILD (MMForWILD) workshop at ICPR"
-  year: 2020
-  id: mmforwild2020
-  link: https://iplab.dmi.unict.it/mmforwild/
-  deadline: '2020-10-17'
-  date: January 10-25, 2021
-  place: Milan, Italy
-  sub: FO,SP,ML
-
-- title: DFRWS EU
-  year: 2021
-  id: dfrwseu2021
-  deadline: '2020-10-02'
-  date: March 29 - April 1
-  place: Oxford, UK
-  sub: FO
-  link: https://dfrws.org/conferences/dfrws-eu-2021/
-
 - title: IEEE International Conference on Acoustics, Speech and Signal Processing
   year: 2021
   id: icassp2021
@@ -63,6 +45,15 @@
   link: https://2021.ieeeicip.org/CFP2.asp
   sub: SP,ML
 
+- title: European Signal Processing Conference (EUSIPCO)
+  year: 2021
+  id: eusipco2021
+  deadline: '2021-02-12'
+  date: August 23 - 27, 2021
+  place: Dublin, Ireland
+  link: https://eusipco2021.org/
+  sub: SP,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
@@ -74,8 +65,8 @@
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadlines usually in June (1st round) and August (2nd round).
 # * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
-# * ICLR 2020. Deadline usually in September
+# * ICLR. Deadline usually in September
 # * DFRWS EU. Deadline usually in October.
 # * Winter Conference on Applications in Computer Vision (WACV). Second deadline used to be in October.
-# * IEEE ICASSP 2020. Deadline usually in October.
+# * IEEE ICASSP. Deadline usually in October.
 # * CVPR: Deadline usually in November.
