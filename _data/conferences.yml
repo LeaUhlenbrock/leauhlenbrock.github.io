@@ -1,14 +1,5 @@
 
 ---
-- title: Conference on Computer Vision and Pattern Recognition (CVPR)
-  year: 2021
-  id: cvpr2021
-  deadline: '2020-11-16'
-  date: June 19-25, 2021
-  link: http://cvpr2021.thecvf.com/
-  place: Nashville, TN
-  sub: CV,ML
-
 - title: International Workshop on Biometrics and Forensics (IWBF)
   year: 2021
   id: iwbf2021
@@ -44,6 +35,15 @@
   place: Dublin, Ireland
   link: https://eusipco2021.org/
   sub: SP,ML
+
+- title: Conference on Uncertainty in Artificial Intelligence (UAI)
+  year: 2021
+  id: uai2021
+  deadline: '2021-02-19'
+  date: July 27 - 29, 2021
+  link: https://auai.org/uai2021/dates.php
+  place: Virtual conference
+  sub: ML
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
