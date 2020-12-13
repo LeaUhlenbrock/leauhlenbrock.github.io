@@ -26,6 +26,15 @@
   place: Anchorage, Alaska, USA
   link: https://2021.ieeeicip.org/
   sub: SP,ML
+  
+- title: ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)
+  year: 2021
+  id: ihmmsec2021
+  deadline: '2021-02-07'
+  date: June 21-25, 2021
+  place: Brussels, Belgium
+  link: https://www.ihmmsec.org/
+  sub: SP,IH
 
 - title: European Signal Processing Conference (EUSIPCO)
   year: 2021
