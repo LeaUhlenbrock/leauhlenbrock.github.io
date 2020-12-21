@@ -1,5 +1,12 @@
 
 ---
+- title: IEEE Transactions on Multimedia (TMM) Special Issue on Learning from Noisy Multimedia Data
+  year: 2021
+  id: tmm2021
+  deadline: '2021-01-31'
+  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/TMM_SI_learning_from_noisy.pdf
+  sub: ML,CV
+
 - title: International Workshop on Biometrics and Forensics (IWBF)
   year: 2021
   id: iwbf2021
@@ -42,13 +49,14 @@
   deadline: '2021-02-19'
   date: July 27 - 29, 2021
   link: https://auai.org/uai2021/dates.php
-  place: Virtual conference
+  place: Virtual conference(?)
   sub: ML
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
 # * EUSIPCO: Deadline in February.
 # * ACM IH&MMSec: Deadline usually in February.
+# * AUAI: Uncertainty in Artificial Intelligence. Deadline usually in February.
 # * IEEE ICIP. Deadline usually in February/March.
 # * ECCV: biennial scheduled in other years than ICCV. Deadline usually in March.
 # * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
