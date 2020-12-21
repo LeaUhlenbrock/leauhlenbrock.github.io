@@ -33,12 +33,21 @@
   place: Anchorage, Alaska, USA
   link: https://2021.ieeeicip.org/
   sub: SP,ML
+  
+- title: ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)
+  year: 2021
+  id: ihmmsec2021
+  deadline: '2021-02-07'
+  date: June 21-25, 2021
+  place: Brussels, Belgium
+  link: https://www.ihmmsec.org/
+  sub: SP,FO
 
 - title: European Signal Processing Conference (EUSIPCO)
   year: 2021
   id: eusipco2021
   deadline: '2021-02-12'
-  date: August 23 - 27, 2021
+  date: August 23-27, 2021
   place: Dublin, Ireland
   link: https://eusipco2021.org/
   sub: SP,ML
@@ -47,7 +56,7 @@
   year: 2021
   id: uai2021
   deadline: '2021-02-19'
-  date: July 27 - 29, 2021
+  date: July 27-29, 2021
   link: https://auai.org/uai2021/dates.php
   place: Virtual conference(?)
   sub: ML
