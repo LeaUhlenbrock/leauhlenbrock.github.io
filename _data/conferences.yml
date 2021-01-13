@@ -25,15 +25,6 @@
   place: Lecce, Italy
   sub: SP
 
-- title: IEEE International Conference on Image Processing (ICIP)
-  year: 2021
-  id: icip2021
-  deadline: '2021-01-13'
-  date: September 19-22, 2021
-  place: Anchorage, Alaska, USA
-  link: https://2021.ieeeicip.org/
-  sub: SP,ML
-  
 - title: ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)
   year: 2021
   id: ihmmsec2021
@@ -60,6 +51,13 @@
   link: https://auai.org/uai2021/dates.php
   place: Virtual conference(?)
   sub: ML
+
+- title: "IEEE SPM Special Issue on Explainability in Data Science: Interpretability, Reproducibility, and Replicability"
+  year: 2021,
+  id: spm2021
+  deadline: '2021-03-22'
+  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/SPM_SI_explainability.pdf
+  sub: ML,SP
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January.
