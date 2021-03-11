@@ -1,57 +1,5 @@
 
 ---
-- title: IEEE Transactions on Multimedia (TMM) Special Issue on Learning from Noisy Multimedia Data
-  year: 2021
-  id: tmm2021
-  deadline: '2021-01-31'
-  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/TMM_SI_learning_from_noisy.pdf
-  sub: ML,CV
-
-- title: International Workshop on Biometrics and Forensics (IWBF)
-  year: 2021
-  id: iwbf2021
-  deadline: '2021-02-21'
-  date: May 6-7, 2021
-  place: Rome, Italy
-  link: https://www.iwbf2021.com/about/
-  sub: FO,SP
-
-- title: International Conference on Image Analysis and Processing
-  year: 2021
-  id: iciap2021
-  deadline: '2021-05-05'
-  date: September 13-17, 2021
-  link: https://www.iciap2021.org/
-  place: Lecce, Italy
-  sub: SP
-
-- title: ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)
-  year: 2021
-  id: ihmmsec2021
-  deadline: '2021-02-07'
-  date: June 21-25, 2021
-  place: Brussels, Belgium
-  link: https://www.ihmmsec.org/
-  sub: SP,FO
-
-- title: European Signal Processing Conference (EUSIPCO)
-  year: 2021
-  id: eusipco2021
-  deadline: '2021-02-12'
-  date: August 23-27, 2021
-  place: Dublin, Ireland
-  link: https://eusipco2021.org/
-  sub: SP,ML
-
-- title: Conference on Uncertainty in Artificial Intelligence (UAI)
-  year: 2021
-  id: uai2021
-  deadline: '2021-02-19'
-  date: July 27-29, 2021
-  link: https://auai.org/uai2021/dates.php
-  place: Virtual conference(?)
-  sub: ML
-
 - title: "IEEE SPM Special Issue on Explainability in Data Science: Interpretability, Reproducibility, and Replicability"
   year: 2021,
   id: spm2021
@@ -59,12 +7,39 @@
   link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/SPM_SI_explainability.pdf
   sub: ML,SP
 
+- title: International Conference on Computer Vision (ICCV)
+  year: 2021
+  id: iccv2021
+  deadline: '2021-03-17'
+  date: October 10-17, 2021
+  place: Montreal, Canada
+  link: http://iccv2021.thecvf.com/
+  sub: CV,ML
+
+- title: 35th Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2021
+  id: neurips2021
+  deadline: '2021-05-26'
+  date: December 6-14, 2021
+  place: Online
+  link: https://nips.cc/
+  sub: ML,CV
+
+- title: International Conference on Image Analysis and Processing, 1st round
+  year: 2021
+  id: iciap2021
+  deadline: '2021-09-15'
+  date: May, 2020
+  place: Leece, Italy
+  link: https://www.iciap2021.org/
+  sub: CV,ML,SP
+
 # Upcoming conferences
-# * DFRWS USA. Deadline usually in January.
+# * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
 # * ACM IH&MMSec: Deadline usually in February.
 # * AUAI: Uncertainty in Artificial Intelligence. Deadline usually in February.
-# * IEEE ICIP. Deadline usually in February/March.
+# * IEEE ICIP. Deadline usually in January/February.
 # * ECCV: biennial scheduled in other years than ICCV. Deadline usually in March.
 # * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
 # * International Conference on Image Analysis and Processing (ICIAP). Deadline usually in May.
