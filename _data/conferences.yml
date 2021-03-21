@@ -34,6 +34,15 @@
   link: https://www.iciap2021.org/
   sub: CV,ML,SP
 
+- title: IEEE International Workshop on Information Forensics and Security (WIFS)
+  year: 2021
+  id: wifs2021
+  deadline: '2021-07-14'
+  date: December 7-10, 2021
+  place: Montpellier, France
+  link: https://wifs2021.lirmm.fr/
+  sub: SP,FO,ML
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
