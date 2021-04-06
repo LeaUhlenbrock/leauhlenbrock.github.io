@@ -1,19 +1,12 @@
 
 ---
-- title: "IEEE SPM Special Issue on Explainability in Data Science: Interpretability, Reproducibility, and Replicability"
-  year: 2021,
-  id: spm2021
-  deadline: '2021-03-22'
-  link: https://signalprocessingsociety.org/sites/default/files/uploads/special_issues_deadlines/SPM_SI_explainability.pdf
-  sub: ML,SP
-
-- title: International Conference on Computer Vision (ICCV)
+- title: 19th International Conference on Computer Analysis of Images and Patterns
   year: 2021
-  id: iccv2021
-  deadline: '2021-03-17'
-  date: October 10-17, 2021
-  place: Montreal, Canada
-  link: http://iccv2021.thecvf.com/
+  id: caip2021
+  deadline: '2021-05-05'
+  date: September 28-30, 2021
+  place: Online
+  link: http://cyprusconferences.org/caip2021/
   sub: CV,ML
 
 - title: 35th Conference on Neural Information Processing Systems (NeurIPS)
