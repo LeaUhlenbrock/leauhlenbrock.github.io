@@ -21,7 +21,7 @@
 - title: IS&T Media Watermarking, Security, and Forensics 2022
   year: 2022
   id: ei2022
-  deadline: 2021-07-30
+  deadline: '2021-07-30'
   date: January 16-22, 2022
   place: San Francisco, CA
   link: https://www.imaging.org/site/IST/IST/Conferences/EI/EI_2022/Conference/C_MWSF.aspx
@@ -41,7 +41,7 @@
   id: icassp2022
   date: May 22-27, 2022
   place: Singapore
-  deadline: 2021-10-01
+  deadline: '2021-10-01'
   link: https://2022.ieeeicassp.org/
   sub: SP,ML,FO,CV
 
