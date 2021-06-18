@@ -1,23 +1,5 @@
 
 ---
-- title: 19th International Conference on Computer Analysis of Images and Patterns
-  year: 2021
-  id: caip2021
-  deadline: '2021-05-05'
-  date: September 28-30, 2021
-  place: Online
-  link: http://cyprusconferences.org/caip2021/
-  sub: CV,ML
-
-- title: 35th Conference on Neural Information Processing Systems (NeurIPS)
-  year: 2021
-  id: neurips2021
-  deadline: '2021-05-26'
-  date: December 6-14, 2021
-  place: Online
-  link: https://nips.cc/
-  sub: ML,CV
-
 - title: International Conference on Image Analysis and Processing, 1st round
   year: 2021
   id: iciap2021
@@ -36,6 +18,33 @@
   link: https://wifs2021.lirmm.fr/
   sub: SP,FO,ML
 
+- title: IS&T Electronic Imaging Symposium: Media Watermarking, Security, and Forensics 2022
+  year: 2022
+  id: ei2022
+  deadline: 2021-07-30
+  date: January 16-22, 2022
+  place: San Francisco, CA
+  link: https://www.imaging.org/site/IST/IST/Conferences/EI/EI_2022/Conference/C_MWSF.aspx
+  sub: SP,FO,ML
+
+- title: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2022
+  id: cvpr2022
+  date: June 21-24, 2022
+  deadline: '2021-11-16'
+  place: New Orleans, Louisiana
+  link: http://cvpr2022.thecvf.com/
+  sub: ML,CV
+
+- title: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+  year: 2022
+  id: icassp2022
+  date: May 22-27, 2022
+  place: Singapore
+  deadline: 2021-10-01
+  link: https://2022.ieeeicassp.org/
+  sub: SP,ML,FO,CV
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
@@ -43,6 +52,7 @@
 # * AUAI: Uncertainty in Artificial Intelligence. Deadline usually in February.
 # * IEEE ICIP. Deadline usually in January/February.
 # * ECCV: biennial scheduled in other years than ICCV. Deadline usually in March.
+# * International Conference on Computer Analysis of Images and Patterns (CAIP), Deadline usually in April.
 # * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
 # * International Conference on Image Analysis and Processing (ICIAP). Deadline usually in May.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
