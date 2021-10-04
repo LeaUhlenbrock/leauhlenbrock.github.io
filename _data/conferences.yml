@@ -1,23 +1,5 @@
 
 ---
-- title: International Conference on Image Analysis and Processing, 1st round
-  year: 2021
-  id: iciap2021
-  deadline: '2021-09-15'
-  date: May, 2022
-  place: Leece, Italy
-  link: https://www.iciap2021.org/
-  sub: CV,ML,SP
-
-- title: IS&T Media Watermarking, Security, and Forensics
-  year: 2022
-  id: ei2022
-  deadline: '2021-07-30'
-  date: January 16-22, 2022
-  place: San Francisco, CA
-  link: https://www.imaging.org/site/IST/IST/Conferences/EI/EI_2022/Conference/C_MWSF.aspx
-  sub: SP,FO,ML
-
 - title: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2022
   id: cvpr2022
@@ -27,23 +9,23 @@
   link: http://cvpr2022.thecvf.com/
   sub: ML,CV
 
-- title: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+- title: European Signal Processing Conference (EUSIPCO)
   year: 2022
-  id: icassp2022
-  date: May 22-27, 2022
-  place: Singapore
-  deadline: '2021-10-01'
-  link: https://2022.ieeeicassp.org/
-  sub: SP,ML,FO,CV
+  id: eusipco2022
+  date: August 29 - September 2, 2022
+  deadline: '2022-02-20'
+  place: Belgrade, Serbia
+  link: https://2022.eusipco.org/
+  sub: SP,ML
 
-- title: DFRWS EU
+- title: IEEE International Conference in Image Processing (ICIP)
   year: 2022
-  id: dfrwseu2022
-  date: March 28-31, 2022
-  place: Online and physical
-  deadline: '2021-10-03'
-  link: https://dfrws.org/conferences/dfrws-eu-2022/
-  sub: FO
+  id: icip2022
+  date: October 16-19, 2022
+  deadline: '2022-02-14'
+  place: Bordeaux, France
+  link: https://2022.ieeeicip.org/
+  sub: SP,ML,FO,CV
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
