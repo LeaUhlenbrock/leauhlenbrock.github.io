@@ -1,14 +1,5 @@
 
 ---
-- title: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-  year: 2022
-  id: cvpr2022
-  date: June 21-24, 2022
-  deadline: '2021-11-16'
-  place: New Orleans, Louisiana
-  link: http://cvpr2022.thecvf.com/
-  sub: ML,CV
-
 - title: European Signal Processing Conference (EUSIPCO)
   year: 2022
   id: eusipco2022
@@ -26,6 +17,14 @@
   place: Bordeaux, France
   link: https://2022.ieeeicip.org/
   sub: SP,ML,FO,CV
+
+- title: ACM Workshop on Information Hiding and Multimedia Security
+  year: 2022
+  id: ihmmsec2022
+  date: June 27-29, 2022
+  place: Santa Barbara, CA
+  link: https://www.ihmmsec.org/
+  sub: FO,SP,ML
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
