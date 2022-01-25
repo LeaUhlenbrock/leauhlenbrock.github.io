@@ -27,6 +27,13 @@
   link: https://www.ihmmsec.org/
   sub: FO,SP,ML
 
+- title: Multimedia Tools and Applications Journal Special Issue on Content-Based Image Retrieval
+  year: 2022
+  id: mtap2022
+  deadline: '2022-07-01'
+  link: https://www.springer.com/journal/11042/updates/19896530
+  sub: SP,ML,CV
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
