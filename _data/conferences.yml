@@ -34,6 +34,15 @@
   link: https://www.springer.com/journal/11042/updates/19896530
   sub: SP,ML,CV
 
+- title: CVPR Workshop on Media Forensics
+  year: 2022
+  id: cvprwmf2022
+  deadline: '2022-03-14'
+  link: https://sites.google.com/view/mediaforensics2022
+  place: Lousiana, New Orleans
+  date: June 21 - 24, 2022
+  sub: FO,ML,CV
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
