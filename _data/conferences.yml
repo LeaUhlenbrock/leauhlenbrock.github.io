@@ -1,32 +1,5 @@
 
 ---
-- title: European Signal Processing Conference (EUSIPCO)
-  year: 2022
-  id: eusipco2022
-  date: August 29 - September 2, 2022
-  deadline: '2022-03-01'
-  place: Belgrade, Serbia
-  link: https://2022.eusipco.org/
-  sub: SP,ML
-
-- title: IEEE International Conference in Image Processing (ICIP)
-  year: 2022
-  id: icip2022
-  date: October 16-19, 2022
-  deadline: '2022-02-25'
-  place: Bordeaux, France
-  link: https://2022.ieeeicip.org/
-  sub: SP,ML,FO,CV
-
-- title: ACM Workshop on Information Hiding and Multimedia Security
-  year: 2022
-  id: ihmmsec2022
-  date: June 27-29, 2022
-  deadline: '2022-02-27'
-  place: Santa Barbara, CA
-  link: https://www.ihmmsec.org/
-  sub: FO,SP,ML
-
 - title: Multimedia Tools and Applications Journal Special Issue on Content-Based Image Retrieval
   year: 2022
   id: mtap2022
@@ -43,6 +16,24 @@
   date: June 21 - 24, 2022
   sub: FO,ML,CV
 
+- title: 36th Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2022
+  id: neurips2022
+  deadline: '2022-05-19'
+  link: https://nips.cc/Conferences/2022/CallForPapers
+  place: Hybrid
+  date: November 28 - December 9, 2022
+  sub: ML,CV
+
+- title: International Conference on Image Analysis and Processing (ICIAP)
+  year: 2022
+  id: iciap2022
+  deadline: '2022-03-15'
+  link: https://waset.org/image-analysis-and-processing-conference-in-october-2022-in-paris
+  place: Paris
+  date: October 27-28, 2022
+  sub: ML,CV
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
@@ -54,6 +45,7 @@
 # * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
 # * International Conference on Image Analysis and Processing (ICIAP). Deadline usually in May.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
+# * EAI International Conference on Digital Forensics & Cyber Crime. Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadlines usually in June (1st round) and August (2nd round).
 # * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
 # * ICLR. Deadline usually in September
