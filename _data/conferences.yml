@@ -34,6 +34,15 @@
   date: October 27-28, 2022
   sub: ML,CV
 
+- title: Workshop Recht und Technik, Datenschutz im Diskurs im Rahmen der GI-Jahrestagung
+  year: 2022
+  id: fbsec2022
+  deadline: '2022-04-30'
+  link: https://easychair.org/conferences/?conf=rut2022
+  date: September 26, 2022
+  place: Hamburg
+  sub: FO,CL
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
