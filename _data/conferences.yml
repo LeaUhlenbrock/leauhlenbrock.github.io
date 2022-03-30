@@ -7,15 +7,6 @@
   link: https://www.springer.com/journal/11042/updates/19896530
   sub: SP,ML,CV
 
-- title: CVPR Workshop on Media Forensics
-  year: 2022
-  id: cvprwmf2022
-  deadline: '2022-03-14'
-  link: https://sites.google.com/view/mediaforensics2022
-  place: Lousiana, New Orleans
-  date: June 21 - 24, 2022
-  sub: FO,ML,CV
-
 - title: 36th Conference on Neural Information Processing Systems (NeurIPS)
   year: 2022
   id: neurips2022
@@ -23,15 +14,6 @@
   link: https://nips.cc/Conferences/2022/CallForPapers
   place: Hybrid
   date: November 28 - December 9, 2022
-  sub: ML,CV
-
-- title: International Conference on Image Analysis and Processing (ICIAP)
-  year: 2022
-  id: iciap2022
-  deadline: '2022-03-15'
-  link: https://waset.org/image-analysis-and-processing-conference-in-october-2022-in-paris
-  place: Paris
-  date: October 27-28, 2022
   sub: ML,CV
 
 - title: Workshop Recht und Technik, Datenschutz im Diskurs im Rahmen der GI-Jahrestagung
@@ -42,6 +24,15 @@
   date: September 26, 2022
   place: Hamburg
   sub: FO,CL
+
+- title: IEE International Workshop on Information Forensics & Security
+  year: 2022
+  id: wifs2022
+  deadline: '2022-06-15'
+  link: https://wifs2022.utt.fr
+  date: December 12 - 16, 2022
+  place: Shanghai
+  sub: FO,SP
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
