@@ -41,6 +41,15 @@
   link: https://www.frontiersin.org/research-topics/32398/media-forensics-in-big-data
   sub: ML,FO
 
+- title: MultiMedia FORensics in the WILD
+  year: 2022
+  id: mmforwild2022
+  deadline: '2022-05-22'
+  link: https://iplab.dmi.unict.it/mmforwild22/
+  date: August 21, 2022
+  place: Montreal, Quebec
+  sub: ML,CV,FO
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
