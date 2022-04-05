@@ -34,6 +34,13 @@
   place: Shanghai
   sub: FO,SP
 
+- title: Media Forensics in Big Data
+  year: 2022
+  id: frontiers2022
+  deadline: '2022-05-31'
+  link: https://www.frontiersin.org/research-topics/32398/media-forensics-in-big-data
+  sub: ML,FO
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
