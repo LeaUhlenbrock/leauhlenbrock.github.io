@@ -36,6 +36,15 @@
   date: June 18 - 22, 2023
   sub: CV,ML
 
+- title: Machine Learning for Cybersecurity
+  year: 2022
+  id: MLCS2022
+  deadline: '2022-06-20'
+  link: https://mlcs.lasige.di.fc.ul.pt/
+  date: September 19, 2022
+  place: Grenoble, France
+  sub: ML,CV,FO
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
