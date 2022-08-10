@@ -50,6 +50,14 @@
   place: Montreal, Quebec
   sub: ML,CV,FO
 
+- title: USENIX Security Symposium
+  year: 2023
+  id: usenixsecurity23
+  deadline: '2022-10-11'
+  link: https://www.usenix.org/conference/usenixsecurity23
+  date: August 9 - 11, 2023
+  place: Anahaim, CA, USA
+  sub: ML, SP
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
