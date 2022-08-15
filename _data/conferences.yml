@@ -1,53 +1,30 @@
 
 ---
-- title: Multimedia Tools and Applications Journal Special Issue on Content-Based Image Retrieval
-  year: 2022
-  id: mtap2022
-  deadline: '2022-07-01'
-  link: https://www.springer.com/journal/11042/updates/19896530
-  sub: SP,ML,CV
-
-- title: 36th Conference on Neural Information Processing Systems (NeurIPS)
-  year: 2022
-  id: neurips2022
-  deadline: '2022-05-19'
-  link: https://nips.cc/Conferences/2022/CallForPapers
-  place: Hybrid
-  date: November 28 - December 9, 2022
+- title: Electronic Imaging
+  year: 2023
+  id: ei2023
+  deadline: '2022-08-15'
+  link: https://www.imaging.org/Site/IST/Conferences/EI/EI2023/EI2023.aspx
+  place: San Francisco, CA
+  date: Junary 15 - 19, 2023
   sub: ML,CV
 
-- title: Workshop Recht und Technik, Datenschutz im Diskurs im Rahmen der GI-Jahrestagung
-  year: 2022
-  id: fbsec2022
-  deadline: '2022-04-30'
-  link: https://easychair.org/conferences/?conf=rut2022
-  date: September 26, 2022
-  place: Hamburg
-  sub: FO,CL
+- title: Digital Forensics Research Workshop EU (DFRWS EU)
+  year: 2023
+  id: dfrwseu2023
+  deadline: '2022-10-03'
+  link: https://dfrws.org/conferences/dfrws-eu-2023/
+  place: Bonn, Germany
+  date: March 21 - 24, 2023
+  sub: FO
 
-- title: IEEE International Workshop on Information Forensics & Security
-  year: 2022
-  id: wifs2022
-  deadline: '2022-06-15'
-  link: https://wifs2022.utt.fr
-  date: December 12 - 16, 2022
-  place: Shanghai
-  sub: FO,SP
-
-- title: Media Forensics in Big Data
-  year: 2022
-  id: frontiers2022
-  deadline: '2022-05-31'
-  link: https://www.frontiersin.org/research-topics/32398/media-forensics-in-big-data
-  sub: ML,FO
-
-- title: MultiMedia FORensics in the WILD
-  year: 2022
-  id: mmforwild2022
-  deadline: '2022-05-22'
-  link: https://iplab.dmi.unict.it/mmforwild22/
-  date: August 21, 2022
-  place: Montreal, Quebec
+- title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2023
+  id: icassp2023
+  deadline: '2022-10-19'
+  link: https://2023.ieeeicassp.org/
+  place: Rhodes Island, Greece
+  date: June 4-9, 2023
   sub: ML,CV,FO
 
 - title: USENIX Security Symposium
@@ -57,7 +34,18 @@
   link: https://www.usenix.org/conference/usenixsecurity23
   date: August 9 - 11, 2023
   place: Anahaim, CA, USA
-  sub: ML, SP
+  sub: ML, SEC
+
+- title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2023
+  id: cvpr2023
+  deadline: '2022-11-22'
+  link: https://cvpr2023.thecvf.com/
+  place: Vancouver, Canada
+  date: June 18 - 22, 2023
+  sub: CV,ML
+
+
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
 # * EUSIPCO: Deadline in February.
@@ -68,6 +56,7 @@
 # * International Conference on Computer Analysis of Images and Patterns (CAIP), Deadline usually in April.
 # * Neural Information Processing Systems (NeurIPS). Deadline usually in May.
 # * International Conference on Image Analysis and Processing (ICIAP). Deadline usually in May.
+# * Multimedia Forensics in the Wild (MMForWild), Deadline usually in May.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * EAI International Conference on Digital Forensics & Cyber Crime. Deadline usually in July.
 # * Winter Conference on Applications of Computer Vision. Deadlines usually in June (1st round) and August (2nd round).
