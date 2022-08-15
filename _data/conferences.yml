@@ -1,13 +1,13 @@
 
 ---
-- title: Electronic Imaging
+- title: IEEE Conference on Secure and Trustworthy Machine Learning
   year: 2023
-  id: ei2023
-  deadline: '2022-08-15'
-  link: https://www.imaging.org/Site/IST/Conferences/EI/EI2023/EI2023.aspx
-  place: San Francisco, CA
-  date: Junary 15 - 19, 2023
-  sub: ML,CV
+  id: satml2023
+  deadline: '2022-08-22'
+  place: Raleigh, NC, USA
+  date: February 8 - 10, 2023
+  sub: ML,SEC
+  link: https://satml.org/
 
 - title: Digital Forensics Research Workshop EU (DFRWS EU)
   year: 2023
@@ -34,7 +34,7 @@
   link: https://www.usenix.org/conference/usenixsecurity23
   date: August 9 - 11, 2023
   place: Anahaim, CA, USA
-  sub: ML, SEC
+  sub: ML,SEC
 
 - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2023
@@ -59,6 +59,7 @@
 # * Multimedia Forensics in the Wild (MMForWild), Deadline usually in May.
 # * IEEE International Workshop on Information Forensics and Security (WIFS). Deadline usually in July.
 # * EAI International Conference on Digital Forensics & Cyber Crime. Deadline usually in July.
+# * IEEE Conference on Secure and Trustworthy Machine Learning. Deadline usually in August.
 # * Winter Conference on Applications of Computer Vision. Deadlines usually in June (1st round) and August (2nd round).
 # * IS&T Electronic Imaging. Media Watermarking, Security, and Forensics. Deadline usually in September.
 # * ICLR. Deadline usually in September
