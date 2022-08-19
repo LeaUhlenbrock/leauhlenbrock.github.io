@@ -45,6 +45,15 @@
   date: June 18 - 22, 2023
   sub: CV,ML
 
+- title: International Workshop on Digital Forensics and Watermarking (IWDW)
+  year: 2022
+  id: idwd2022
+  deadline: '2022-09-30'
+  link: http://www.iwdw.site
+  place: Guilin, China
+  date: November 19 - 21, 2022
+  sub: FO,SP
+
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
