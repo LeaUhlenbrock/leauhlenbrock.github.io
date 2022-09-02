@@ -46,7 +46,8 @@
   sub: FO,SP
 
 - title: EURASIP Journal on Image and Video Processing Special Issue on Manipulation Detection in Digital Images and Videos
-  year: eurasipsi2022
+  year: 2022
+  id: eurasipsi2022
   deadline: '2022-11-15'
   link: https://jivp-eurasipjournals.springeropen.com/manipulation-detection-in-digital-images-and-videos
   sub: FO,ML,SP
