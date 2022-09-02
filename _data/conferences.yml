@@ -1,14 +1,5 @@
 
 ---
-- title: IEEE Conference on Secure and Trustworthy Machine Learning
-  year: 2023
-  id: satml2023
-  deadline: '2022-08-22'
-  place: Raleigh, NC, USA
-  date: February 8 - 10, 2023
-  sub: ML,SEC
-  link: https://satml.org/
-
 - title: Digital Forensics Research Workshop EU (DFRWS EU)
   year: 2023
   id: dfrwseu2023
@@ -53,6 +44,12 @@
   place: Guilin, China
   date: November 19 - 21, 2022
   sub: FO,SP
+
+- title: EURASIP Journal on Image and Video Processing Special Issue on Manipulation Detection in Digital Images and Videos
+  year: eurasipsi2022
+  deadline: '2022-11-15'
+  link: https://jivp-eurasipjournals.springeropen.com/manipulation-detection-in-digital-images-and-videos
+  sub: FO,ML,SP
 
 
 # Upcoming conferences
