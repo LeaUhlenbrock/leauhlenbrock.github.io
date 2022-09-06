@@ -52,6 +52,15 @@
   link: https://jivp-eurasipjournals.springeropen.com/manipulation-detection-in-digital-images-and-videos
   sub: FO,ML,SP
 
+- title: European Signal Processing Conference (EUSIPCO)
+  year: 2023
+  id: eusipco2023
+  deadline: '2023-02-20'
+  link: https://eusipco2023.org/
+  place: Helsinki, Finland
+  date: September 4 - 8, 2023
+  sub: ML,CV,SP
+
 
 # Upcoming conferences
 # * DFRWS USA. Deadline usually in January/February.
