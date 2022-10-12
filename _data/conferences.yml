@@ -1,14 +1,5 @@
 
 ---
-- title: Digital Forensics Research Workshop EU (DFRWS EU)
-  year: 2023
-  id: dfrwseu2023
-  deadline: '2022-10-03'
-  link: https://dfrws.org/conferences/dfrws-eu-2023/
-  place: Bonn, Germany
-  date: March 21 - 24, 2023
-  sub: FO
-
 - title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
   year: 2023
   id: icassp2023
@@ -18,15 +9,6 @@
   date: June 4-9, 2023
   sub: ML,CV,FO
 
-- title: USENIX Security Symposium
-  year: 2023
-  id: usenixsecurity23
-  deadline: '2022-10-11'
-  link: https://www.usenix.org/conference/usenixsecurity23
-  date: August 9 - 11, 2023
-  place: Anahaim, CA, USA
-  sub: ML,SEC
-
 - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2023
   id: cvpr2023
@@ -35,15 +17,6 @@
   place: Vancouver, Canada
   date: June 18 - 22, 2023
   sub: CV,ML
-
-- title: International Workshop on Digital Forensics and Watermarking (IWDW)
-  year: 2022
-  id: idwd2022
-  deadline: '2022-09-30'
-  link: http://www.iwdw.site
-  place: Guilin, China
-  date: November 19 - 21, 2022
-  sub: FO,SP
 
 - title: EURASIP Journal on Image and Video Processing Special Issue on Manipulation Detection in Digital Images and Videos
   year: 2022
@@ -83,3 +56,4 @@
 # * Winter Conference on Applications in Computer Vision (WACV). Second deadline used to be in October.
 # * IEEE ICASSP. Deadline usually in October.
 # * CVPR: Deadline usually in November.
+# * IWDW: International Workshop on Digital Forensics and Watermarking. Deadline usually in November.
