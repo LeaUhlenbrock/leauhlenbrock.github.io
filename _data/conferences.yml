@@ -1,21 +1,5 @@
 
 ---
-- title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-  year: 2023
-  id: cvpr2023
-  deadline: '2022-11-22'
-  link: https://cvpr2023.thecvf.com/
-  place: Vancouver, Canada
-  date: June 18 - 22, 2023
-  sub: CV,ML
-
-- title: EURASIP Journal on Image and Video Processing Special Issue on Manipulation Detection in Digital Images and Videos
-  year: 2022
-  id: eurasipsi2022
-  deadline: '2022-11-15'
-  link: https://jivp-eurasipjournals.springeropen.com/manipulation-detection-in-digital-images-and-videos
-  sub: FO,ML,SP
-
 - title: European Signal Processing Conference (EUSIPCO)
   year: 2023
   id: eusipco2023
