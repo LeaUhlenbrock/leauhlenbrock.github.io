@@ -45,6 +45,15 @@
   date: September 25-29, 2023
   sub: SEC,FO
 
+- title: ACM Information Hiding and Multimedia Security
+  year: 2023
+  id: ihmmsec2023
+  deadline: '2023-02-19'
+  place: Chicago, Illinois
+  link: https://www.ihmmsec.org/
+  date: June 28-30, 2023
+  sub: SEC,FO
+
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
