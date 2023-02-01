@@ -27,24 +27,6 @@
   date: October 8-11, 2023
   sub: SP,ML,CV
 
-- title: ACM Multimedia Systems Conference
-  year: 2023
-  id: acmmsys2023
-  deadline: '2023-01-27'
-  place: Vancouver, Canada
-  link: https://2023.acmmmsys.org/
-  date: June 7-10, 2023
-  sub: ML,CV,SP
-
-- title: European Symposium on Research in Computer Security (ESORICS)
-  year: 2023
-  id: eusorics2023
-  deadline: '2023-01-22'
-  place: The Hague, The Netherlands
-  link: https://www.esorics2023.org/
-  date: September 25-29, 2023
-  sub: SEC,FO
-
 - title: ACM Information Hiding and Multimedia Security
   year: 2023
   id: ihmmsec2023
@@ -53,6 +35,22 @@
   link: https://www.ihmmsec.org/
   date: June 28-30, 2023
   sub: SEC,FO
+
+- title: Special Issue on "Advances in Disinformation Detection and Media Forensics", Pattern Recognition Letter
+  year: 2023
+  id: prl2023
+  deadline: '2023-06-20',
+  link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers
+  sub: FO
+
+- title: International Conference on Computer Analysis of Images and Patterns (CAIP)
+  year: 2023
+  id: caip2023
+  deadline: '2023-04-01'
+  link: https://cyprusconferences.org/caip2023/
+  place: Limassol, Cyprus
+  date: September 25-30, 2023
+  sub: CV,ML
 
 
 # Upcoming conferences
