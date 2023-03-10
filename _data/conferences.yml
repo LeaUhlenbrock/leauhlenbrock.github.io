@@ -1,23 +1,5 @@
 
 ---
-- title: ACM Information Hiding and Multimedia Security
-  year: 2023
-  id: ihmmsec2023
-  deadline: '2023-03-05'
-  place: Chicago, Illinois
-  link: https://www.ihmmsec.org/
-  date: June 28-30, 2023
-  sub: SEC,FO
-
-- title: European Signal Processing Conference (EUSIPCO)
-  year: 2023
-  id: eusipco2023
-  deadline: '2023-03-06'
-  link: https://eusipco2023.org/
-  place: Helsinki, Finland
-  date: September 4 - 8, 2023
-  sub: ML,CV,SP
-
 - title: Workshop on Media Forensics
   year: 2023
   id: wmf2023
