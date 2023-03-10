@@ -43,6 +43,15 @@
   date: September 25-30, 2023
   sub: CV,ML
 
+- title: IEEE Workshop on Information Forensics and Security (WIFS)
+  year: 2023
+  id: wifs2023
+  deadline: '2023-06-30'
+  link: https://wifs2023.fau.de
+  place: Nürnberg, Germany
+  date: December 4-7, 2023
+  sub: FO,SEC
+
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
