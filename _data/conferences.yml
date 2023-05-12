@@ -1,29 +1,11 @@
 
 ---
-- title: Workshop on Media Forensics
-  year: 2023
-  id: wmf2023
-  deadline: '2023-03-17'
-  link: https://sites.google.com/view/wmf2023/home?authuser=0
-  place: Vancouver, Canada
-  date: June 18, 2023
-  sub: FO,CV,ML
-
 - title: Special Issue on Advances in Disinformation Detection and Media Forensics, Pattern Recognition Letter
   year: 2023
   id: prl2023
   deadline: '2023-06-20'
   link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers
   sub: FO
-
-- title: International Conference on Computer Analysis of Images and Patterns (CAIP)
-  year: 2023
-  id: caip2023
-  deadline: '2023-04-01'
-  link: https://cyprusconferences.org/caip2023/
-  place: Limassol, Cyprus
-  date: September 25-30, 2023
-  sub: CV,ML
 
 - title: IEEE Workshop on Information Forensics and Security (WIFS)
   year: 2023
@@ -33,6 +15,22 @@
   place: Nürnberg, Germany
   date: December 4-7, 2023
   sub: FO,SEC
+
+- title: ECML-PKDD Workshop on Deep Learning and Multimedia Forensics
+  year: 2023
+  id: ecmlpkdd23
+  deadline: '2023-06-12'
+  link: https://sites.google.com/unisi.it/dlmultiforworkshop-ecmlpkdd23
+  place: Torino, Italy
+  date: September 22, 2023
+  sub: FO,ML,SEC
+
+- title: Pattern Recognition Letters Special Issue on Advances in Disinformation Detection and Media Forensics
+  year: 2023
+  id: a2dmf
+  deadline: '2023-06-20'
+  link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers#advances-in-disinformation-detection-and-media-forensics-a2dmf
+  sub: FO,ML,SEC
 
 
 # Upcoming conferences
