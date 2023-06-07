@@ -1,12 +1,5 @@
 
 ---
-- title: Special Issue on Advances in Disinformation Detection and Media Forensics, Pattern Recognition Letter
-  year: 2023
-  id: prl2023
-  deadline: '2023-06-20'
-  link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers
-  sub: FO
-
 - title: IEEE Workshop on Information Forensics and Security (WIFS)
   year: 2023
   id: wifs2023
@@ -19,7 +12,7 @@
 - title: ECML-PKDD Workshop on Deep Learning and Multimedia Forensics
   year: 2023
   id: ecmlpkdd23
-  deadline: '2023-06-12'
+  deadline: '2023-06-20'
   link: https://sites.google.com/unisi.it/dlmultiforworkshop-ecmlpkdd23
   place: Torino, Italy
   date: September 22, 2023
