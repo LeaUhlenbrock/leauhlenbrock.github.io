@@ -25,6 +25,13 @@
   link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers#advances-in-disinformation-detection-and-media-forensics-a2dmf
   sub: FO,ML,SEC
 
+- title: IEEE Security & Privacy Special Issue on Synthetic Realities and Artificial Intelligence-Generated Contents
+  year: 2023
+  id: spsr
+  deadline: '2023-10-13'
+  link: https://www.computer.org/digital-library/magazines/sp/synthetic-realities-ai-generated-contents
+  sub: FO,ML,SEC
+
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
