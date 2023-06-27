@@ -3,7 +3,7 @@
 - title: IEEE Workshop on Information Forensics and Security (WIFS)
   year: 2023
   id: wifs2023
-  deadline: '2023-06-30'
+  deadline: '2023-07-16'
   link: https://wifs2023.fau.de
   place: Nürnberg, Germany
   date: December 4-7, 2023
@@ -31,6 +31,15 @@
   deadline: '2023-10-13'
   link: https://www.computer.org/digital-library/magazines/sp/synthetic-realities-ai-generated-contents
   sub: FO,ML,SEC
+
+- title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2024
+  id: icassp2023
+  deadline: '2023-09-06'
+  link: https://2024.ieeeicassp.org/
+  place: Seoul, Korea
+  date: April 14-19, 2024
+  sub: ML,CV,FO
 
 
 # Upcoming conferences
