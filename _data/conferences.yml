@@ -1,14 +1,5 @@
 
 ---
-- title: IEEE Workshop on Information Forensics and Security (WIFS)
-  year: 2023
-  id: wifs2023
-  deadline: '2023-07-16'
-  link: https://wifs2023.fau.de
-  place: Nürnberg, Germany
-  date: December 4-7, 2023
-  sub: FO,SEC
-
 - title: ECML-PKDD Workshop on Deep Learning and Multimedia Forensics
   year: 2023
   id: ecmlpkdd23
@@ -16,13 +7,6 @@
   link: https://sites.google.com/unisi.it/dlmultiforworkshop-ecmlpkdd23
   place: Torino, Italy
   date: September 22, 2023
-  sub: FO,ML,SEC
-
-- title: Pattern Recognition Letters Special Issue on Advances in Disinformation Detection and Media Forensics
-  year: 2023
-  id: a2dmf
-  deadline: '2023-06-20'
-  link: https://www.sciencedirect.com/journal/pattern-recognition-letters/about/call-for-papers#advances-in-disinformation-detection-and-media-forensics-a2dmf
   sub: FO,ML,SEC
 
 - title: IEEE Security & Privacy Special Issue on Synthetic Realities and Artificial Intelligence-Generated Contents
@@ -41,6 +25,14 @@
   date: April 14-19, 2024
   sub: ML,CV,FO
 
+- title: DFRWS EU
+  year: 2024
+  id: dfrwseu2024
+  deadline: '2023-09-24'
+  link: https://dfrws.org/conferences/dfrws-eu-2024/
+  place: Zaragoza, Spain
+  date: March 19-22, 2024
+  sub: FO
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
