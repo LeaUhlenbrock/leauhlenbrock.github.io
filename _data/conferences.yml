@@ -1,21 +1,5 @@
 
 ---
-- title: ECML-PKDD Workshop on Deep Learning and Multimedia Forensics
-  year: 2023
-  id: ecmlpkdd23
-  deadline: '2023-06-20'
-  link: https://sites.google.com/unisi.it/dlmultiforworkshop-ecmlpkdd23
-  place: Torino, Italy
-  date: September 22, 2023
-  sub: FO,ML,SEC
-
-- title: IEEE Security & Privacy Special Issue on Synthetic Realities and Artificial Intelligence-Generated Contents
-  year: 2023
-  id: spsr
-  deadline: '2023-10-13'
-  link: https://www.computer.org/digital-library/magazines/sp/synthetic-realities-ai-generated-contents
-  sub: FO,ML,SEC
-
 - title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
   year: 2024
   id: icassp2023
@@ -33,6 +17,31 @@
   place: Zaragoza, Spain
   date: March 19-22, 2024
   sub: FO
+
+- title: IEEE Security & Privacy Special Issue on Synthetic Realities and Artificial Intelligence-Generated Contents
+  year: 2023
+  id: spsr
+  deadline: '2023-10-13'
+  link: https://www.computer.org/digital-library/magazines/sp/synthetic-realities-ai-generated-contents
+  sub: FO,ML,SEC
+
+- title: USENIX Security
+  year: 2024
+  id: usenix2024
+  deadline: '2024-10-17'
+  link: https://www.usenix.org/conference/usenixsecurity24
+  place: Philadelphia, PA, USA
+  date: August 14-16, 2024
+  sub: SEC
+
+- title: European Signal Processing Conference
+  year: 2024
+  id: eusipco2024
+  deadline: '2024-02-26'
+  link: https://eusipcolyon.sciencesconf.org/
+  place: Lyon, France
+  date: August 26-30, 2024
+  sub: ML,CV,FO
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
