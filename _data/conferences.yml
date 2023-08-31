@@ -28,7 +28,7 @@
 - title: USENIX Security
   year: 2024
   id: usenix2024
-  deadline: '2024-10-17'
+  deadline: '2023-10-17'
   link: https://www.usenix.org/conference/usenixsecurity24
   place: Philadelphia, PA, USA
   date: August 14-16, 2024
@@ -41,6 +41,15 @@
   link: https://eusipcolyon.sciencesconf.org/
   place: Lyon, France
   date: August 26-30, 2024
+  sub: ML,CV,FO
+
+- title: Electronic Imaging
+  year: 2024
+  id: ei2024
+  link: https://www.imaging.org/IST/IST/Conferences/EI/EI2024/EI2024.aspx
+  deadline: '2023-09-15'
+  place: Burlingame, CA, USA
+  date: January 21-25, 2024
   sub: ML,CV,FO
 
 # Upcoming conferences
