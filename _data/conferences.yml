@@ -29,6 +29,7 @@
   year: 2024
   id: usenix2024
   deadline: '2023-10-17'
+  timezone: AoE
   link: https://www.usenix.org/conference/usenixsecurity24
   place: Philadelphia, PA, USA
   date: August 14-16, 2024
@@ -51,6 +52,26 @@
   place: Burlingame, CA, USA
   date: January 21-25, 2024
   sub: ML,CV,FO
+
+- title: IEEE European Symposium on Security and Privacy
+  year: 2024
+  id: eurosp2024
+  link: https://eurosp2024.ieee-security.org/cfp.html
+  deadline: '2023-09-02'
+  timezone: AoE
+  place: Vienna, Austria
+  date: August 8 - 12, 2024
+  sub: SEC
+
+- title: ACM ASIA Conference on Computer and Communications Security (ASIACCS 2024)
+  year: 2024
+  id: asiaccs2024
+  link: https://asiaccs2024.sutd.edu.sg/
+  deadline: '2023-12-07'
+  place: Singapore
+  date: July 1-5, 2024
+  sub: SEC
+
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
