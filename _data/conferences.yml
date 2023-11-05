@@ -1,38 +1,12 @@
 
 ---
-- title: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+- title: ACM ASIA Conference on Computer and Communications Security (ASIACCS 2024)
   year: 2024
-  id: icassp2023
-  deadline: '2023-09-06'
-  link: https://2024.ieeeicassp.org/
-  place: Seoul, Korea
-  date: April 14-19, 2024
-  sub: ML,CV,FO
-
-- title: DFRWS EU
-  year: 2024
-  id: dfrwseu2024
-  deadline: '2023-09-24'
-  link: https://dfrws.org/conferences/dfrws-eu-2024/
-  place: Zaragoza, Spain
-  date: March 19-22, 2024
-  sub: FO
-
-- title: IEEE Security & Privacy Special Issue on Synthetic Realities and Artificial Intelligence-Generated Contents
-  year: 2023
-  id: spsr
-  deadline: '2023-10-13'
-  link: https://www.computer.org/digital-library/magazines/sp/synthetic-realities-ai-generated-contents
-  sub: FO,ML,SEC
-
-- title: USENIX Security
-  year: 2024
-  id: usenix2024
-  deadline: '2023-10-17'
-  timezone: AoE
-  link: https://www.usenix.org/conference/usenixsecurity24
-  place: Philadelphia, PA, USA
-  date: August 14-16, 2024
+  id: asiaccs2024
+  link: https://asiaccs2024.sutd.edu.sg/
+  deadline: '2023-12-07'
+  place: Singapore
+  date: July 1-5, 2024
   sub: SEC
 
 - title: European Signal Processing Conference
@@ -44,34 +18,23 @@
   date: August 26-30, 2024
   sub: ML,CV,FO
 
-- title: "IS&T Electronic Imaging"
+- title: USENIX Security Symposium (Winter deadline)
   year: 2024
-  id: ei2024
-  link: https://www.imaging.org/IST/IST/Conferences/EI/EI2024/EI2024.aspx
-  deadline: '2023-09-15'
-  place: Burlingame, CA, USA
-  date: January 21-25, 2024
-  sub: ML,CV,FO
-
-- title: IEEE European Symposium on Security and Privacy
-  year: 2024
-  id: eurosp2024
-  link: https://eurosp2024.ieee-security.org/cfp.html
-  deadline: '2023-09-02'
-  timezone: AoE
-  place: Vienna, Austria
-  date: August 8 - 12, 2024
+  id: usenix2024
+  deadline: '2024-02-08'
+  link: https://www.usenix.org/conference/usenixsecurity24/
+  place: Philadelphia, PA
+  date: August 14-16, 2023
   sub: SEC
 
-- title: ACM ASIA Conference on Computer and Communications Security (ASIACCS 2024)
+- title: ACM Information Hiding & Multimedia Security
   year: 2024
-  id: asiaccs2024
-  link: https://asiaccs2024.sutd.edu.sg/
-  deadline: '2023-12-07'
-  place: Singapore
-  date: July 1-5, 2024
-  sub: SEC
-
+  id: ihmmsec2024
+  link: https://www.ihmmsec.org/
+  deadline: '2024-02-16'
+  place: Baiona, Spain
+  date: June 24-26, 2024
+  sub: SEC,FO
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
