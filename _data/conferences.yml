@@ -36,6 +36,15 @@
   date: June 24-26, 2024
   sub: SEC,FO
 
+- title: European Symposium on Research in Computer Security
+  year: 2024
+  id: esorics2024
+  link: https://esorics2024.org/
+  deadline: '2024-01-08'
+  place: Bydgoszcz, Poland
+  date: September 16-20, 2024
+  sub: SEC,FO
+
 # Upcoming conferences
 # * ESORICS. Deadline in January.
 # * DFRWS USA. Deadline usually in January/February.
