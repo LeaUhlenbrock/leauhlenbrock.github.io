@@ -1,15 +1,6 @@
 
 ---
-- title: ACM ASIA Conference on Computer and Communications Security (ASIACCS 2024)
-  year: 2024
-  id: asiaccs2024
-  link: https://asiaccs2024.sutd.edu.sg/
-  deadline: '2023-12-07'
-  place: Singapore
-  date: July 1-5, 2024
-  sub: SEC
-
-- title: European Signal Processing Conference
+- title: European Signal Processing Conference (EUSIPCO)
   year: 2024
   id: eusipco2024
   deadline: '2024-02-26'
@@ -27,7 +18,7 @@
   date: August 14-16, 2023
   sub: SEC
 
-- title: ACM Information Hiding & Multimedia Security
+- title: ACM Information Hiding & Multimedia Security (IH&MMSec)
   year: 2024
   id: ihmmsec2024
   link: https://www.ihmmsec.org/
@@ -36,14 +27,23 @@
   date: June 24-26, 2024
   sub: SEC,FO
 
-- title: European Symposium on Research in Computer Security
+- title: European Symposium on Research in Computer Security (ESORICS)
   year: 2024
   id: esorics2024
   link: https://esorics2024.org/
-  deadline: '2024-01-08'
+  deadline: '2024-04-19'
   place: Bydgoszcz, Poland
   date: September 16-20, 2024
   sub: SEC,FO
+
+- title: IEEE Workshop on Information Forensics and Security (WIFS)
+  year: 2024
+  id: wifs2024
+  link: https://wifs2024.uniroma3.it
+  deadline: '2024-06-30'
+  place: Rome, Italy
+  date: December 2-5, 2024
+  sub: FO,SEC
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
