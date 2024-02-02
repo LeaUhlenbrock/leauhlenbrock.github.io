@@ -22,10 +22,19 @@
   year: 2024
   id: ihmmsec2024
   link: https://www.ihmmsec.org/
-  deadline: '2024-02-16'
+  deadline: '2024-02-29'
   place: Baiona, Spain
   date: June 24-26, 2024
   sub: SEC,FO
+
+- title: IEEE Conference on Image Processing (ICIP)
+  year: 2024
+  id: icip2024
+  link: https://2024.ieeeicip.org/
+  deadline: '2024-02-07'
+  place: Abu Dhabi, UAE
+  date: October 27-30, 2024
+  sub: ML,CV,FO
 
 - title: European Symposium on Research in Computer Security (ESORICS)
   year: 2024
@@ -44,6 +53,15 @@
   place: Rome, Italy
   date: December 2-5, 2024
   sub: FO,SEC
+
+- title: CVPR Workshop on Media Forensics
+  year: 2024
+  id: wmf2024
+  link: https://sites.google.com/view/wmf2024
+  deadline: '2024-03-19'
+  place: Seattle, WA
+  date: June 17, 2024
+  sub: FO,ML,SEC
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
