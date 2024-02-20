@@ -3,20 +3,11 @@
 - title: European Signal Processing Conference (EUSIPCO)
   year: 2024
   id: eusipco2024
-  deadline: '2024-02-26'
+  deadline: '2024-03-03'
   link: https://eusipcolyon.sciencesconf.org/
   place: Lyon, France
   date: August 26-30, 2024
   sub: ML,CV,FO
-
-- title: USENIX Security Symposium (Winter deadline)
-  year: 2024
-  id: usenix2024
-  deadline: '2024-02-08'
-  link: https://www.usenix.org/conference/usenixsecurity24/
-  place: Philadelphia, PA
-  date: August 14-16, 2023
-  sub: SEC
 
 - title: ACM Information Hiding & Multimedia Security (IH&MMSec)
   year: 2024
@@ -26,15 +17,6 @@
   place: Baiona, Spain
   date: June 24-26, 2024
   sub: SEC,FO
-
-- title: IEEE Conference on Image Processing (ICIP)
-  year: 2024
-  id: icip2024
-  link: https://2024.ieeeicip.org/
-  deadline: '2024-02-07'
-  place: Abu Dhabi, UAE
-  date: October 27-30, 2024
-  sub: ML,CV,FO
 
 - title: European Symposium on Research in Computer Security (ESORICS)
   year: 2024
