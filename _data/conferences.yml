@@ -1,23 +1,5 @@
 
 ---
-- title: European Signal Processing Conference (EUSIPCO)
-  year: 2024
-  id: eusipco2024
-  deadline: '2024-03-03'
-  link: https://eusipcolyon.sciencesconf.org/
-  place: Lyon, France
-  date: August 26-30, 2024
-  sub: ML,CV,FO
-
-- title: ACM Information Hiding & Multimedia Security (IH&MMSec)
-  year: 2024
-  id: ihmmsec2024
-  link: https://www.ihmmsec.org/
-  deadline: '2024-02-29'
-  place: Baiona, Spain
-  date: June 24-26, 2024
-  sub: SEC,FO
-
 - title: European Symposium on Research in Computer Security (ESORICS)
   year: 2024
   id: esorics2024
@@ -44,6 +26,15 @@
   place: Seattle, WA
   date: June 17, 2024
   sub: FO,ML,SEC
+
+- title: Neural Information Processing Systems (NeurIPS)
+  year: 2024
+  id: neurips2024
+  link: https://nips.cc/
+  deadline: '2024-05-22'
+  place: Vancouver, Canada
+  date: December 9 - 15, 2024
+  sub: ML,CV
 
 # Upcoming conferences
 # * ESORICS. Deadline in January.
