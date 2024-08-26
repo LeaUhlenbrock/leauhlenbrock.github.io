@@ -1,5 +1,38 @@
 
 ---
+
+- title: DFDS DFRWS EU 2025
+  year: 2025
+  id: dfdsdfrws2025
+  link: https://iplab.dmi.unict.it/mfs/ACMSAC2025-IMFBS/
+  deadline: '2024-11-04' 
+  place: Brno, Czech Republic
+  date: April 1, 2025
+  sub: FO
+
+
+- title: ACM SAC 2025 - Track
+Innovations in Multimedia Forensics and Biometric Security 
+  year: 2025
+  id: ACMSAC2025
+  link: https://iplab.dmi.unict.it/mfs/ACMSAC2025-IMFBS/
+  deadline: '2024-09-20'
+  place: Sicily, Italy
+  date: March 31 - April 4, 2025
+  sub: FO, CV
+
+
+
+- title: Advances in Forensic Analysis and Threat Mitigation (SRBS) Workshop held at the 2024 British Machine Vision Conference (BMVC)
+  year: 2024
+  id: srbs2024
+  link: https://sites.google.com/view/srbs-bmvc2024/home
+  deadline: '2024-08-04'
+  place: Glasgow, UK
+  date: November 27-28, 2024
+  sub: FO, CV
+
+
 - title: European Symposium on Research in Computer Security (ESORICS)
   year: 2024
   id: esorics2024
